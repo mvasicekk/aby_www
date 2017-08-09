@@ -375,7 +375,7 @@ font-size: 24px;
 }
 /* PRO TELEFONY !!!!!!!!!!!!!!!!!!!! */
 /* veskera nastaveni pro rozliseni mensi jak 688px */
-@media only screen and (max-width: 736px) {
+@media only screen and (max-width: 767px) {
   .field-name-field-narozeniny > div:nth-child(1) > div:nth-child(1) > p:nth-child(1){
     width: 300%!important;
   }
