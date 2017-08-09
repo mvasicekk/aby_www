@@ -1,0 +1,41 @@
+name = "Mobile Theme (html version)"
+description = "Base theme for mobile devices."
+core = 7.x
+version = 2.x
+engine = phptemplate
+
+; Page layout regions
+regions[sidebar_second] = Second Sidebar
+regions[sidebar_first]  = First Sidebar
+regions[front_welcome]  = Front Welcome
+regions[header]         = Header
+regions[preface_first] = Preface first
+regions[preface_middle] = Preface middle
+regions[preface_last] = Preface last
+regions[content_top]    = Content Top
+regions[content]        = Content
+regions[help]           = Help
+regions[footer]         = Footer
+regions[footer_first]   = First Bottom
+regions[footer_second]  = Second Bottom
+regions[footer_third]   = Third Bottom
+regions[bottom_1] = Bottom 1
+regions[bottom_2] = Bottom 2
+regions[bottom_3] = Bottom 3
+regions[bottom_4] = Bottom 4
+regions[vlajky] = Vlajky
+
+stylesheets[all][] = css/css/bootstrap-theme.min.css
+stylesheets[all][] = css/css/bootstrap.min.css
+stylesheets[all][] = style.css
+;Javascript
+scripts[] = css/js/bootstrap.min.js
+scripts[] = js/superfish.js
+scripts[] = js/effects.js
+scripts[] = js/aby.js
+
+; Information added by drupal.org packaging script on 2012-08-26
+version = "7.x-2.0"
+core = "7.x"
+project = "mobile"
+datestamp = "1345995427"

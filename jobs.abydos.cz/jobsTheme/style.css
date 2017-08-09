@@ -1,0 +1,862 @@
+/* zakladni prvky*/
+body {
+  background-color: rgb(219,219,219)!important; font-family: Arial;min-height: 100%;height: 100%;
+}
+li{
+  display: inline;
+}
+a:hover {
+  color: black!important; text-decoration: none!important; /* no underline */
+}
+.maxwidth{
+  max-width: 1262px; margin-left: auto; margin-right: auto;
+}
+/* ******************************************************* */
+/* Logo */
+.logo{margin-left: auto; margin-right: auto; width: 280px; margin-bottom: 10px;
+}
+.logoImg{width: 280px; height: 68px;
+}
+/* ******************************************************* */
+/* nav bar */
+#customNav{
+  background-color: #cbcbcb!important; /* color overlay */
+  -moz-box-shadow: 0 5px 5px rgba(0,0,0,.75); /* drop shadow */
+  -webkit-box-shadow: 0 5px 5px rgba(0,0,0,.75); /* drop shadow */
+  box-shadow: 0 5px 5px rgba(0,0,0,.75); /* drop shadow */
+}
+.icon-bar {
+    background-color: rgb(216, 21, 97) !important;
+}
+.abyLink{
+  font-size: 22px;
+  color: black!important;
+  margin-right: 49px;
+}
+.links > li{
+  list-style: none;
+}
+a.active{
+  border-bottom: 1px solid rgb(216, 21, 97);
+}
+/* ******************************************************* */
+/* SLIDER 1 - neni to slider ale je to hlavni obrazek na UVODU */
+.img-res{
+   width: 100%;
+   height: auto;
+   margin-top: -55px;
+}
+
+/* VZV hlavni obrazek*/
+.vzv_main{
+  text-align: center;
+  width: 100%;
+  margin-top: 25px;
+}
+/* sipka dolu pod obrazkem*/
+.arrow {
+  text-align: center;
+  margin: 5% 0;
+}
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+.uvod-animations{
+    position: fixed!important;
+    left: 50%!important;
+    top: 50%!important;
+}
+
+/* ******************************************************* */
+/*branch 1 branch 2 atd */
+
+ .nadpis_slide{
+   color: #d71561; /* text color + color overlay */
+   font-size: 27px;
+   margin-top: -23px;
+ }
+   .text_slide{
+   color: #000; /* text color + color overlay */
+   font-size: 16px;
+ }
+
+ .branch_img{
+   padding-left: 145px;
+     width: 100%;
+ }
+ .branch_road{
+   text-align: center;
+   padding-right: 4px!important;
+ }
+ /* obrazky aby boli respnsivni Drupal je zly a nedovoli mi dat css to image */
+.field-name-field-branch-img > div:nth-child(1) > div:nth-child(1) > img:nth-child(1){
+  max-width: 100%;
+  height: auto;
+  float: right;
+}
+
+.field-name-field-branch1-img > div:nth-child(1) > div:nth-child(1) > img:nth-child(1){
+  max-width: 100%!important;
+  height: auto!important;
+  float: right;
+}
+.field-name-field-branch-img3 > div:nth-child(1) > div:nth-child(1) > img:nth-child(1){
+  max-width: 100%;
+  height: auto;
+  float: right;
+}
+.field-name-field-startkariera > div:nth-child(1) > div:nth-child(1) > img:nth-child(1){
+  max-width: 100%;
+  height: auto;
+}
+.field-name-field-pk-img > div:nth-child(1) > div:nth-child(1) > img:nth-child(1){
+  max-width: 100%;
+  height: auto;
+}
+/* Volna mista view */
+.nadpisVolnaMista{
+  color: #d71561; /* text color + color overlay */
+  font-family: "Arial";
+  font-size: 30px;
+  text-align: center;
+}
+/*  Nadpis dane pozice */
+.views-field-field-nazev-pozice{
+  color: #000; /* text color + color overlay */
+  font-family: "Arial";
+  font-size: 24px;
+}
+/* k okamzitemu nastupu pokud je tedy */
+.views-field-field-okam-nastup{
+  margin-left: 20px;
+}
+
+
+/* ================================================== */
+.vzv_vozik{
+  width: 11%;
+  margin: auto;
+  margin-bottom: -112px;
+
+}
+
+.btnDetail{
+  width: 104px;
+  height: 41px;
+}
+.volnaMista{
+  margin-top: 42px;
+}
+.wrapp{
+  margin-bottom: 45px;
+}
+/* Fooooter */
+.followus{
+  height: 55px;
+  background-color: rgb(174,174,174);
+  padding: 18px;
+}
+.copyright{
+  text-align: center;
+}
+.views-field-field-detailbtn{
+  border-bottom: 1px solid;
+  padding: 10px;
+}
+.field-name-field-nadpis-foto{
+  text-align: center;
+font-size: 24px;
+}
+
+/* ******************************************************* */
+/* vsechny veci ktere se zobrazi kdyz je rozliseni nad 768px */
+/* minimum je 768px  */
+@media only screen and (min-width: 769px) {
+  .rowPunkte{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+  .field-name-field-ft-foto{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #webform-client-form-23{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* Fotogalerie */
+  .colorbox{
+    float: left;
+    margin: 10px;
+  }
+  .branchText{
+    height: 265px;
+  }
+  .cestaVzv{
+    text-align: center;
+    z-index: 1000;
+    position: relative;
+  }
+  .branchImg{
+    bottom: 0;
+    position: absolute;
+    right: 29px;
+  }
+ .views-field-field-detailbtn{
+   margin-top: -25px;
+   margin-bottom: 25px;
+ }
+  .branches{
+    margin-left: auto!important;
+    margin-right: auto!important;
+    width: 99%!important;
+  }
+  .branch2{
+    margin-top: -30px;
+  }
+  div.field:nth-child(3) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1){
+    width: 249px;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .main_text{
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .abyLink{
+    margin-right: 25px;
+  }
+  .links > li {
+    display: inline;
+  }
+  .mMenu{
+    padding: 8px;
+    margin-left: 100px!important;
+    float: left;
+  }
+  .slide-left-righ{
+    text-decoration:none;
+    display: inline-block;
+    color:black;
+  }
+  /* add a empty string after the elment with class .slide-left-right */
+  .slide-left-righ:after{
+  content: '';
+  display: block;
+  height: 1px;
+  width: 0;
+  background: rgb(216, 21, 97);
+  transition: width .5s ease; /* .5 seonds for changes to the width and background-color */
+  -webkit-transition: width .5s ease; /* Chrome and Safari */
+  -moz-transition: width .5s ease; /* FireFox */
+  }
+  /* Change the width and background on hover, aka sliding out */
+  .slide-left-righ:hover:after
+  {
+  width: 100%;
+  background: rgb(216, 21, 97);
+  }
+  /* menu sipka */
+  .spikaStyle{
+    margin-top: -3px;
+    margin-right: 7px;
+  }
+
+  /* pozice */
+  .pozice{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* pa */
+  .pa_puntik_text{
+    margin-top: 22px;
+  }
+  .field-name-field-puntik3-popis{
+  width: 430px;
+  }
+  .customPnt{
+    float: right!important;
+  }
+
+  /* kt */
+  .kt{
+    width: 78%;
+    margin-left: auto!important;
+  }
+  .kt_foto{
+    float: left;
+  }
+  .kt_jm{
+    padding-top: 70px;
+  }
+  .po_jtext{
+    width: 52%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .po_jnadpis{
+    width: 58%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .po_table1{
+    padding: 13px;
+  }
+  .po_table2{
+    padding: 13px;
+  }
+  .field-name-field-pk-img{
+    float: right;
+    margin-top: -50px;
+  }
+  .po_pktext{
+    padding-left: 35px;
+  }
+  .po_pknadpis{
+    padding-top: 20px;
+    padding-left: 15px;
+  }
+  .po_zpnv{
+    float: right;
+  }
+ .odkazy{
+   margin: 20px;
+ }
+}
+/* PRO Tablety !!!!!!!!!!!!!!!!!!!! */
+/* ******************************************************* */
+@media (min-width: 768px) {
+  .mMenu {
+    padding: 8px;
+    margin-left: 0px!important;
+  }
+  .branches{
+   position: relative;
+   left: 0%;
+  }
+  div.field:nth-child(3) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1){
+    width: 249px;
+  }
+  .kt_jm{
+      padding-top: 20px!important;
+  }
+  .kt_foto{
+    float: none!important;
+  }
+  .views-field-field-detailbtn {
+    margin-top: -5px!important;
+    margin-bottom: 25px!important;
+    text-align: center!important;
+}
+
+}
+/* PRO TELEFONY !!!!!!!!!!!!!!!!!!!! */
+/* veskera nastaveni pro rozliseni mensi jak 688px */
+@media only screen and (max-width: 736px) {
+  .field-name-field-narozeniny > div:nth-child(1) > div:nth-child(1) > p:nth-child(1){
+    width: 300%!important;
+  }
+
+  .po_zpnv{
+      float: none;
+      text-align: center;
+      margin-top: 15px;
+  }
+  .po_odpnp{
+    text-align: center;
+  }
+  #webform-client-form-23{
+    width: 100%;
+      margin-top: 60px;
+  }
+  .field-name-field-volna-mista-menu{
+    top: 4px;
+    position: fixed;
+  }
+
+  .field-name-field-puntik3-popis {
+    width: 100%!important;
+  }
+  .branchText {
+    height: 330px;
+  }
+  .pozice{
+    width: 100%!important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .mMenu{
+    padding: 8px;
+    margin-left: 0px!important;
+  }
+  .field-name-field-ft-foto{
+    text-align: center;
+  }
+  .abyLink{
+    display: block;
+  }
+  .logoImg{
+    display: none;
+  }
+  .vzv_vozik{
+      display: none;
+  }
+  div.field:nth-child(3) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1){
+    width: 249px;
+  }
+  .navbar-fixed{
+    position: fixed!important;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+  }
+  .img-res{
+    display: none;
+  }
+  .main_text{
+    text-align: center;
+    margin-top: 75px;
+  }
+  div.field:nth-child(1) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1){
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+  }
+  .branch_img{
+    display: none;
+  }
+  .branch_road{
+    display: none;
+  }
+  .views-row {
+    border-bottom: 1px solid;
+    padding: 10px;
+
+  }
+  .view-seznam-pozic{
+    text-align: center;
+  }
+  .views-field-field-detailbtn{
+    margin-top: 4px;
+  }
+
+  .nadpis_slide{
+    color: #d71561; /* text color + color overlay */
+    font-size: 27px;
+    margin-top: 0px;
+  }
+  /*Proc Abydos */
+  .pa_nadpis{
+    margin-top: 70px;
+  }
+  .kt_nadpis{
+    margin-top: 70px;
+  }
+  .pa_text{
+    margin-top: 15px;
+  }
+  .pa_puntikImg{
+    display: none;
+  }
+  .pa_punkt{
+    height: 115px;
+  }
+  .kt_map{
+    display: none;
+  }
+  .kt{
+    text-align: center;
+  }
+  /* Pozice */
+  .po_nadpis{
+    margin-top: 70px!important;
+  }
+  .po_info_pozice{
+    margin-left: 9px!important;
+  }
+  .po_pkimg{
+    display: none;
+  }
+  .po_pknadpis{
+    width: 100%!important;
+    text-align: center!important;
+  }
+  .po_pktext{
+    width: 100%!important;
+    text-align: center!important;
+  }
+  .pravy_bok{
+    height: 650px!important;
+  }
+  .info_text{
+    margin-top: 50px;
+  }
+  .kt_foto{
+        width: 100%;
+  }
+
+}
+.active{
+  border-bottom: 1px solid #d71561;
+}
+.field-collection-container{
+  margin-bottom: 0em!important;
+}
+/* Proc Abydos */
+.puntici{
+  margin-top: 45px;
+  border-bottom: 1px solid #d71561;
+  border-top: 1px solid #d71561;
+}
+.puntici2{
+  border-bottom: 1px solid #d71561;
+}
+.puntici3{
+  border-bottom: 1px solid #d71561;
+}
+.puntici4{
+  border-bottom: 1px solid #d71561;
+}
+/* nadpis */
+.pa_nadpis{
+  color: #d71561; /* text color + color overlay */
+  font-family: "Arial";
+  font-size: 36px;
+  text-align: center;
+}
+/* hlavni text */
+.pa_text{
+  text-align: center;
+  color: #060303; /* text color + color overlay */
+  font-size: 14px;
+}
+/* prvni puntik */
+.pa_puntikImg{
+  text-align: center;
+  margin-top: 15px;
+}
+/* Fotogalerie */
+.ft_nadpis{
+    color: #d71561; /* text color + color overlay */
+    font-family: "Arial";
+    font-size: 36px;
+    text-align: center;
+}
+.ft_main_nadpis{
+  font-size: 26px;
+  text-align: center;
+}
+/* Kontakty */
+.kt_nadpis{
+    color: #d71561; /* text color + color overlay */
+    font-family: "Arial";
+    font-size: 36px;
+    text-align: center;
+}
+.kt_main_info_text{
+  color: #000; /* text color + color overlay */
+  font-size: 24px;
+  text-align: center;
+}
+.kt_second{
+  margin-top: 20px;
+}
+.kt_map{
+  text-align: center;
+  margin-top: 15px;
+}
+.kt_maptext{
+  color: #000; /* text color + color overlay */
+  text-align: center;
+  font-size: 24px;
+  margin-top: 10px;
+}
+/* Pozice */
+.po_nadpis{
+  color: #d71561; /* text color + color overlay */
+  font-family: "Arial";
+  font-size: 19px;
+  margin-top:15px;
+}
+.po_nastup{
+  padding-left: 50px;
+  border-bottom: 1px solid #d71561;
+  font-weight: bold;
+}
+.po_info_nadpis{
+  margin-top: 20px;
+  font-size: 16px;
+}
+.po_info_pozice{
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+.po_table1{
+  margin-top: 15px;
+  background-color: #d4d4d4;
+  display: block;
+}
+.po_table2{
+  margin-top:25px;
+  background-color: #d4d4d4;
+  display: block;
+}
+.po_table3{
+  margin-top:25px;
+  background-color: #d4d4d4;
+  display: block;
+}
+.po_jimg{
+    text-align: center;
+}
+.po_jnadpis{
+  color: #000; /* text color + color overlay */
+  font-size: 16px;
+}
+.po_jtext{
+  color: #000; /* text color + color overlay */
+  font-size: 16px;
+}
+.po_zimg{
+  text-align: center;
+}
+.po_ztext{
+  text-align: center;
+  color: #060000; /* text color + color overlay */
+  font-size: 17px;
+}
+.po_pktext{
+  color: #000; /* text color + color overlay */
+  font-size: 14px;
+  width: 47%;
+  float: left;
+}
+.po_pknadpis{
+  width: 50%;
+  color: #d71561; /* text color + color overlay */
+  font-size: 24px;
+}
+.views-row{
+  border-bottom: 0px solid!important;
+}
+.pravy_bok{
+  display: block;
+}
+div.field:nth-child(5) > div:nth-child(1) > .field-item{
+  display: list-item;
+}
+div.field:nth-child(7) > div:nth-child(1) > .field-item{
+  display: list-item;
+}
+div.field:nth-child(9) > div:nth-child(1) > .field-item{
+  display: list-item;
+}
+.pozice{
+  margin-bottom: 30px;
+}
+.field-name-field-os-tel{
+  list-style: none;
+}
+.field-name-field-os-tel2{
+  list-style: none;
+}
+
+#edit-submitted-zivotopis-upload{
+  float: left;
+}
+#edit-submitted-pozice{
+  border: none;
+  border-bottom: 3px solid #d71561;
+  display: block;
+  width: 100%;
+  height: 29px;
+  padding: 6px 12px;
+  background-color: #e9e9e9;
+}
+/* input styles */
+input[type="text"] {
+  padding: 4px;
+  border: none;
+  border-bottom: solid 3px #d71561;
+  background-color: #e9e9e9;
+  display: block;
+  width: 100%;
+  height: 29px;
+  padding: 6px 12px;
+}
+input[type="password"] {
+  padding: 4px;
+  border: none;
+  border-bottom: solid 3px #d71561;
+  background-color: #e9e9e9;
+  display: block;
+  width: 100%;
+  height: 29px;
+  padding: 6px 12px;
+}
+input[type="email"] {
+  padding: 4px;
+  border: none;
+  border-bottom: solid 3px #d71561;
+  display: block;
+  width: 100%;
+  height: 29px;
+  padding: 6px 12px;
+  background-color: #e9e9e9;
+}
+input[type="email"]:focus,
+input[type="email"].focus {
+  border-bottom: solid 2px #d71561;
+}
+
+input[type="text"]:focus,
+input[type="text"].focus {
+  border-bottom: solid 2px #d71561;
+}
+input[type="submit"]{
+  padding: 5px 16px;
+  background: #d71561;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.info_text{
+  font-size: 25px;
+  text-align: center;
+  color: rgb(221,21,97);
+}
+.infoNadpis{
+  font-size: 16px;
+  border-bottom: 1px solid #d71561;
+  width: 80%;
+}
+.infoborder{
+  background-color: #d4d4d4;
+}
+.field-name-field-kon-nadpis{
+  text-align: center;
+  font-size: 15px;
+}
+
+.rotated {
+  transform: rotate(180deg);
+  -ms-transform: rotate(180deg); /* IE 9 */
+  -moz-transform: rotate(180deg); /* Firefox */
+  -webkit-transform: rotate(180deg); /* Safari and Chrome */
+  -o-transform: rotate(180deg); /* Opera */
+}
+.move{
+  position: fixed;
+  top: 50%;
+  left: 44%;
+  right: 44%;
+}
+.field-name-field-kon-nadpis{
+  color: #d71561;
+  font-size: 24px;
+}
+.volnaM{
+  background: #c50030;
+padding: 11px 40px 11px 50px;
+position: relative;
+text-decoration: none;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+.narozeniny{
+  font-size: 18px;
+}
+.nar{
+  color: #d71561;
+}
+
+
+.narozeniny {
+ overflow: hidden;
+ position: relative;
+}
+
+.field-name-field-narozeniny > div:nth-child(1) > div:nth-child(1) > p:nth-child(1){
+  width: 150%;
+  height: 100%;
+  margin: 0;
+  text-align: center;
+  /* Starting position */
+  -moz-transform:translateX(100%);
+  -webkit-transform:translateX(100%);
+  transform:translateX(100%);
+  /* Apply animation to this element */
+  -moz-animation: scroll-left 25s linear infinite;
+  -webkit-animation: scroll-left 25s linear infinite;
+  animation: scroll-left 25s linear infinite;
+  display: -moz-box;
+}
+/* Move it (define the animation) */
+@-moz-keyframes scroll-left {
+ 0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes scroll-left {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes scroll-left {
+ 0%   {
+ -moz-transform: translateX(100%); /* Browser bug fix */
+ -webkit-transform: translateX(100%); /* Browser bug fix */
+ transform: translateX(100%);
+ }
+ 100% {
+ -moz-transform: translateX(-100%); /* Browser bug fix */
+ -webkit-transform: translateX(-100%); /* Browser bug fix */
+ transform: translateX(-100%);
+ }
+}
+
+.logoI{width: 280px; height: 68px;
+}
+@media only screen and (min-width: 736px) {
+    .jobsTheme-user-login-form-wrapper {
+        top: 50%; /* IMPORTANT */
+        left: 50%; /* IMPORTANT */
+        display: block;
+        position: absolute;
+        width: 750px;
+        height: 417px;
+        margin-top: -208.5px; /* HALF OF THE HEIGHT */
+        margin-left: -375px; /* HALF OF THE WIDTH */
+    }
+  }
+@media only screen and (max-width: 736px) {
+  .jobsTheme-user-login-form-wrapper {
+    width: 80%;
+    margin-left:auto;
+    margin-right: auto;
+  }
+}

@@ -1,0 +1,28 @@
+name = jobsTheme
+description = New web site for Abydos.cz
+core = 7.x
+engine = phptemplate
+
+;Styles
+stylesheets[all][] = style.css
+stylesheets[all][] = css/css/bootstrap-theme.min.css
+stylesheets[all][] = css/css/bootstrap.min.css
+
+;Javascript
+scripts[] = css/js/bootstrap.min.js
+scripts[] = js/compressed.js
+
+;Regions
+regions[header] = Header
+regions[left] = Left sidebar
+regions[right] = Right sidebar
+regions[content] = Content
+regions[footer] = Footer
+
+
+
+
+
+;Features
+;-----------------------------
+features[] = main_menu

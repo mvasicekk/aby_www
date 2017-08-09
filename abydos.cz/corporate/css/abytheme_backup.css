@@ -1,0 +1,1127 @@
+/* 
+    Document   : abytheme
+    Created on : 13.11.2013, 12:50:23
+    Author     : runt
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+ul{
+ margin-bottom: 1em;
+} 
+body{
+    background-image: none;
+    background-color: #cccccc;
+}
+
+li.beztecky{
+    list-style-type: none;
+}
+
+div#slideshow{
+    margin-top: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+/*    z-index: -10000;*/
+}
+
+div#footer{
+/*    position: fixed;
+    bottom: 10px;
+    width: 1000px;*/
+    background-color: #333;
+    height: 28px;
+    padding: 0px;
+    margin: 0px;
+}
+
+div#footer table{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-top: 3px;
+    padding-left: 10px;
+}
+
+div#footer td{
+    background: none;
+}
+
+div#footer table td{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+/*div#content-container{
+    height: 600px
+}*/
+
+body.node-type-rozcestnik{
+    background:#ccc url('../images/rozcestnik_pozadi.jpg') no-repeat fixed center top;
+/*    background-color: #cccccc;*/
+}
+
+body.node-type-kontakt{
+    background:#ccc url('../images/rozcestnik_pozadi.jpg') no-repeat fixed center top;
+/*    background-color: #cccccc;*/
+}
+
+.inwrap{
+/*    background-color: #cccccc;*/
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+ul.language-switcher-locale-url{
+    list-style-type: none;
+}
+
+ul.language-switcher-locale-url>li{
+    display: inline;
+}
+
+.logo{
+    width: 800px;
+}
+
+div.region-vlajky{
+    float: right;
+    height: 22px;
+    margin-top: 50px;
+}
+
+/******************************************************************************/
+/* rozcestnik */
+div#abybanner{
+    width: 100%;
+    height: 60px;
+    overflow: hidden;
+/*    border:1px solid black;*/
+}
+
+div#ikonovyrozcestnik{
+/*    height: 150px;*/
+    text-align: center;
+    margin-top:0px;
+/*    border:1px solid black;*/
+}
+
+div#ikonovyrozcestnik>div{
+    display: inline-block;
+/*    border:1px solid black;*/
+}
+
+
+
+/* dvojtext */
+div#dvojtext{
+    margin-top: 50px;
+    text-align: center;
+/*    height: 250px;*/
+/*    border:1px solid black;*/
+}
+div#dvojtext>div{
+    vertical-align: top;
+    display: inline-block;
+    line-height: 16px;
+    color: black;
+    width: 495px;
+    font-size: 15px;
+}
+div#dvojtext>div#kdojsme{
+    padding-right: 0px;
+}
+div#dvojtext>div#conabizime{
+    padding-left: 0px;
+}
+
+div.field-name-field-kdo-jsme-nadpis{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+div.field-name-field-kdo-jsme-text{
+    text-align: left;
+}
+
+div.field-name-field-co-nab-z-me-nadpis{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+div.field-name-field-co-nab-z-me-text{
+    text-align: left;
+}
+
+body.node-type-rozcestnik div#bocak{
+    width:187px;
+    height:570px;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    background: url(../images/rozcestnik_bocak.png) no-repeat fixed right top;
+    z-index: -1000;
+}
+
+body.node-type-rozcestnik .block{
+    margin: 0;
+}
+
+div.horizontalnecentrovanysipka{
+    position: relative;
+    top: -44px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+div.rozcestnik_operace_odkaz{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 5px;
+/*    border: 1px solid black;*/
+    border-radius: 5px;
+    background-color: #404040;
+}
+
+div.rozcestnik_operace_odkaz>a{
+    color: white;
+}
+
+
+/******************************************************************************/
+/* portret */
+
+body.node-type-portrait{
+    background:#ccc url('../images/pozadi_portret_1.jpg') no-repeat fixed center top;
+/*    background-color: #cccccc;*/
+}
+
+div#portret_main{
+/*    width: 100%;*/
+    text-align: left;
+    line-height: 18px;
+    color: #202020;
+/*    border:1px solid black;*/
+}
+div#portrait_foto{
+    left: 0px;
+    vertical-align: top;
+    display: inline-block;
+    width: 290px;
+/*    border:1px solid black;*/
+}
+
+div#portrait_long_description{
+    vertical-align: top;
+    display: inline-block;
+    width: 437px;
+/*    border:1px solid black;*/
+    margin-left: 30px;
+    font-size: 15px;
+/*    text-align: justify;*/
+}
+
+div#portrait_short_description{
+    vertical-align: top;
+    display: inline-block;
+    width: 210px;
+    margin-left: 23px;
+    font-size: 15px;
+/*    text-align: justify;*/
+/*    border:1px solid black;*/
+}
+
+div.field-name-field-hlavni-nadpis{
+    font-weight: bold;
+/*    font-size:20px;*/
+    font-size:25px;
+    text-shadow: 1px 1px 2px #583D31;
+    color: #dc275c;
+    margin-bottom: 8px;
+}
+
+div.field-name-field-podnadpis{
+
+    margin-top: 3px;
+    font-size:15px;
+}
+
+div.field-name-field-dlouhy-popis{
+    margin-top: 20px;
+}
+
+div.field-name-field-historie-nadpis{
+/*    margin-top: 20px;*/
+    color: #dc275c;
+    font-weight: bold;
+}
+
+div.field-name-field-historie-text{
+    margin-top: 20px;
+}
+
+div.field-name-field-cim-se-zabyvame-nadpis{
+    margin-top: 20px;
+    color: #dc275c;
+    font-weight: bold;
+}
+
+div.field-name-field-cim-se-zabyvame-text{
+/*    margin-top: 20px;*/
+    margin-top: 20px;
+}
+
+div.field-name-field-reference-nadpis{
+    margin-top: 20px;
+    color: #dc275c;
+    font-weight: bold;
+}
+
+div.field-name-field-reference-text{
+/*    margin-top: 20px;*/
+    margin-top: 20px;
+}
+
+div.field-name-field-abyvideo{
+/*    margin-top: 20px;*/
+    margin-top: 20px;
+}
+
+div.field-name-field-o-co-usilujeme-nadpis{
+    margin-top: 20px;
+    color: #dc275c;
+    font-weight: bold;
+}
+
+div.field-name-field-o-co-usilujeme-text{
+    margin-top: 20px;
+}
+
+/******************************************************************************/
+/* kontakt */
+/*body.node-type-kontakt{
+    background:#ccc url('../images/pozadi_kontakt.jpg') no-repeat fixed center top;
+    background-color: #cccccc;
+}*/
+div#kontakt_main{
+    text-align: center;
+    line-height: 19px;
+    color: #202020;
+    margin-top: 20px;
+    height: 500px;
+/*    border: 1px solid black;*/
+}
+
+div#kontakt_main a{
+    color: #dc275c;
+}
+
+div#kontakt_nadpis{
+/*    height: 80px;*/
+/*    border:1px solid black;*/
+}
+
+div#adresy{
+    float: left;
+    margin-right: 30px;
+    width: 346px;
+}
+
+div#kontakt_cz{
+    border-radius: 8px;
+    background-color: rgba(200,200,200,.6);
+    padding: 10px;
+    text-align: left;
+}
+
+div#kontakt_de{
+    margin-top: 34px;
+    border-radius: 8px;
+    background-color: rgba(200,200,200,.6);
+    padding: 10px;
+    text-align: left;
+}
+
+div#kontakt_mapa{
+    border-radius: 8px;
+    background-color: rgba(200,200,200,.6);
+    padding: 20px;
+    text-align: left;
+    overflow:hidden;
+    width: 480px;
+    height: 450px;
+}
+
+div#kontakt_pozvanka{
+    border-radius: 8px;
+    background-color: rgba(200,200,200,.6);
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+hr.cistic{
+    clear:both;
+    height: 1px;
+    border: none;
+    margin: -1em 0 0 0;
+    visibility: hidden;
+}
+
+div#kontakt_pozvanka p{
+    margin: 0px;
+}
+
+div.field-name-field-kontakt-hlavni-nadpis{
+    font-weight: bold;
+    font-size:25px;
+    text-shadow: 1px 1px 2px #583D31;
+    color: #dc275c;
+    margin-bottom: 8px;
+}
+
+div.field-name-field-kontakt-podnadpis{
+    margin-top: 3px;
+    font-size:15px;
+}
+
+div.field-name-field-navstivte-nas-text{
+    margin-top: 3px;
+    font-size:15px;
+}
+
+div#map_canvas{
+position: relative;
+left: -20px;
+top: -20px;
+width: 520px;
+height: 490px;
+}
+/******************************************************************************/
+div.stejnykontakt{
+/*    width: 232px;*/
+/*    border:1px solid black;*/
+/*    height: 232px;*/
+}
+
+/******************************************************************************/
+/* news */
+body.node-type-news{
+    background:#ccc url('../images/pozadi_news_1.jpg') no-repeat fixed center top;
+/*    background-color: #cccccc;*/
+}
+body.node-type-news div#detail_operace{
+    width: 100%;
+    border-radius: 8px;
+    background-color: rgba(255,255,255,.6);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #202020;
+    width: 430px;
+}
+
+body.node-type-news div.views-field-body {
+    font-size: 11px;
+}
+body.node-type-news div.view-header p{
+    margin: 0px;
+}
+
+body.node-type-news div.view-header{
+    border-radius: 8px;
+    background-color: rgba(0,0,0,.6);
+    text-align: left;
+    padding-top: 7px;
+    padding-bottom: 8px;
+    padding-left: 11px;
+    padding-right: 10px;
+    color: white;
+    margin-top: -20px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+body.node-type-news div.views-field-title {
+    border-bottom: 1px solid black;
+    margin-bottom: 3px;
+    margin-top: 25px;
+}
+
+body.node-type-news div.views-field-title a{
+    color: #dc275c; 
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/******************************************************************************/
+/* novinka node */
+body.node-type-novinka{
+    background:#ccc url('../images/pozadi_news.jpg') no-repeat fixed center top;
+}
+
+body.node-type-novinka div#content-container{
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+body.node-type-novinka table td{
+    background-color: white;
+    border: none;
+}
+
+body.node-type-novinka table{
+    border: none;
+}
+/******************************************************************************/
+/* Stelle Node */
+body.node-type-stelle{
+    background:#ccc url('../images/hodnelidi.jpg') no-repeat fixed center top;
+/*    background-color: #cccccc;*/
+}
+body.node-type-stelle div.field-name-field-nazev-pozice{
+    color: #dc275c; 
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+
+body.node-type-stelle section#main{
+    border-radius: 8px;
+    background-color: rgba(200,200,200,.6);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #202020;
+}
+
+body.node-type-stelle div.field-name-field-nastup div.field-label{
+    float: left;
+}
+
+body.node-type-stelle div.field-name-field-pozadujeme-nadpis{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    background-color: #dc275c;
+    border-radius: 8px;
+    width: 50%;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+body.node-type-stelle div.field-name-field-nabizime-nadpis{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    background-color: #dc275c;
+    border-radius: 8px;
+    width: 50%;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+body.node-type-stelle div.field-name-field-kontaktni-info-nadpis{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    background-color: #dc275c;
+    border-radius: 8px;
+    width: 50%;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+body.node-type-stelle div.field-name-field-pozadujeme{
+    margin-left: 20px;
+}
+body.node-type-stelle div.field-name-field-pozadujeme div.field-item{
+    display: list-item;
+    list-style-type: square;
+}
+
+body.node-type-stelle div.field-name-field-nabizime{
+    margin-left: 20px;
+}
+body.node-type-stelle div.field-name-field-nabizime div.field-item{
+    display: list-item;
+    list-style-type: square;
+}
+
+/******************************************************************************/
+/* kariera */
+body.node-type-kariera{
+/*    background:#ccc url('../images/hodnelidi.jpg') no-repeat fixed center top;*/
+    background:#ccc url('../images/pozadi_portret_1.jpg') no-repeat fixed center top;
+/*    background-color: #cccccc;*/
+}
+
+table#personalisti{
+    margin-top: 25px;
+    margin-bottom: 170px;
+    background-color: transparent;
+    border: none;
+    border-radius: 8px;
+}    
+table#personalisti tr.popisek{
+/*    background-color: rgba(255,255,255,0.8);*/
+    color: black;
+}    
+
+table#personalisti img{
+    border-radius: 8px;
+}    
+
+table#personalisti tr.jmeno{
+    font-weight: bold;
+}    
+
+table#personalisti td{
+    background-color: transparent;
+    border: none;
+    padding-right: 20px;
+    vertical-align: top;
+    color: black;
+}    
+
+table#personalisti td div{
+    display: inline-block;
+    margin: 0px;
+}    
+
+table#personalisti td p{
+    display: inline-block;
+    margin: 0px;
+}    
+
+table#personalisti td a{
+    color: #dc275c; 
+}    
+
+body.node-type-kariera div#operace_bocniobr{
+    position: fixed;
+    right: 0px;
+/*    left: 0px;*/
+    top: 520px;
+    z-index: -1000;
+}
+body.node-type-kariera div#detail_operace{
+    width: 360px;
+/*    height: 350px;*/
+    border-radius: 8px;
+    background-color: rgba(255,255,255,.6);
+    float: right;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #202020;
+}
+
+body.node-type-kariera div#detail_operace a{
+    color: #dc275c; 
+    font-size: 15px;
+    font-weight: bold;
+}
+
+div.field-name-field-kontakt-hlavni-nadpis{
+    font-weight: bold;
+        font-size:25px;
+    text-shadow: 1px 1px 2px #583D31;
+    color: #dc275c;
+    margin-bottom: 8px;
+}
+
+div.field-name-field-kontakt-podnadpis{
+
+    margin-top: 3px;
+    font-size:15px;
+}
+
+div.field-name-body{
+
+    margin-top: 20px;
+}
+
+body.node-type-kariera div.view-header{
+    border-radius: 8px;
+    background-color: rgba(0,0,0,.6);
+    text-align: right;
+    padding-top: 7px;
+    padding-bottom: 8px;
+    padding-left: 5px;
+    padding-right: 10px;
+    color: white;
+    margin-top: -20px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 17px;
+}
+body.node-type-kariera div.view-header p{
+    margin: 0px;
+}
+
+body.node-type-kariera div.views-field-body{
+    font-size: 11px;
+}
+
+body.node-type-kariera div.views-field-title {
+    border-bottom: 1px solid black;
+    margin-bottom: 3px;
+}
+/******************************************************************************/
+/* kvalita */
+body.node-type-kvalita{
+    background:#ccc url('../images/kvalita_pozadi_1.jpg') no-repeat fixed center top;
+/*    background-color: #cccccc;*/
+}
+body.node-type-kvalita div#operace_bocniobr{
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    z-index: -1000;
+}
+
+body.node-type-kvalita div#detail_operace{
+    text-align: center;
+    background: none;
+}
+
+body.node-type-kvalita div#operace_bocniobr img{
+    width: 330px;
+    height: 330px;
+}
+body.node-type-kvalita div#hlavni_info_operace{
+    width:420px;
+    margin-left: 0px;
+}
+
+div.field-name-field-kvalita-hlavni-nadpis{
+    font-weight: bold;
+        font-size:25px;
+    text-shadow: 1px 1px 2px #583D31;
+    color: #dc275c;
+    margin-bottom: 8px;
+}
+
+div.field-name-field-kvalita-podnadpis{
+
+    margin-top: 3px;
+    font-size:15px;
+}
+
+div.field-name-field-kvalita-dlouhy-text{
+
+    margin-top: 20px;
+}
+/******************************************************************************/
+/* OPERACE */
+/******************************************************************************/
+body.node-type-operace div.field-name-field-dlouhy-text-operace{
+    margin-top: 20px;
+}
+
+/* tryskani */
+body.page-node-72{
+    background: #ccc url(../images/pozadi_tryskani.jpg) no-repeat fixed bottom left;
+}
+body.page-node-72 div#operace_bocniobr{
+    position: fixed;
+    left: 0px;
+    top: 170px;
+    z-index: -1000;
+}
+body.page-node-72 div#operace_bocniobr img{
+    width: 275px;
+    height: 538px;
+}
+body.page-node-72 div#hlavni_info_operace{
+    width:306px;
+    margin-left: 127px;
+}
+body.page-node-85{
+    background: #ccc url(../images/pozadi_tryskani.jpg) no-repeat fixed bottom left;
+}
+body.page-node-85 div#operace_bocniobr{
+    position: fixed;
+    left: 0px;
+    top: 170px;
+    z-index: -1000;
+}
+body.page-node-85 div#operace_bocniobr img{
+    width: 275px;
+    height: 538px;
+}
+body.page-node-85 div#hlavni_info_operace{
+    width:306px;
+    margin-left: 127px;
+}
+
+body.page-node-27{
+    background: #ccc url(../images/pozadi_tryskani.jpg) no-repeat fixed bottom left;
+}
+body.page-node-27 div#operace_bocniobr{
+    position: fixed;
+    left: 0px;
+    top: 170px;
+    z-index: -1000;
+}
+body.page-node-27 div#operace_bocniobr img{
+    width: 275px;
+    height: 538px;
+}
+
+body.page-node-27 div#hlavni_info_operace{
+    width:306px;
+    margin-left: 127px;
+}
+/******************************************************************************/
+/* brouseni */
+body.page-node-35{
+    background: #ccc url(../images/pozadi_brouseni.jpg) no-repeat fixed bottom left;
+}
+body.page-node-35 div#operace_bocniobr{
+    position: fixed;
+    left: 0px;
+    top: 400px;
+    z-index: -1000;
+}
+body.page-node-35 div#operace_bocniobr img{
+    width: 362px;
+    height: 520px;
+}
+body.page-node-35 div#hlavni_info_operace{
+    width:400px;
+    margin-left: 0px;
+}
+body.page-node-86{
+    background: #ccc url(../images/pozadi_brouseni.jpg) no-repeat fixed bottom left;
+}
+body.page-node-86 div#operace_bocniobr{
+    position: fixed;
+    left: 0px;
+    top: 400px;
+    z-index: -1000;
+}
+body.page-node-86 div#operace_bocniobr img{
+    width: 362px;
+    height: 520px;
+}
+body.page-node-86 div#hlavni_info_operace{
+    width:400px;
+    margin-left: 0px;
+}
+body.page-node-28{
+    background: #ccc url(../images/pozadi_brouseni.jpg) no-repeat fixed bottom left;
+}
+body.page-node-28 div#operace_bocniobr{
+    position: fixed;
+    left: 0px;
+    top: 400px;
+    z-index: -1000;
+}
+body.page-node-28 div#operace_bocniobr img{
+    width: 362px;
+    height: 520px;
+}
+body.page-node-28 div#hlavni_info_operace{
+    width:400px;
+    margin-left: 0px;
+}
+/******************************************************************************/
+/* final */
+body.page-node-34{
+    background: #ccc url(../images/pozadi_zakladovani.jpg) no-repeat fixed bottom left;
+}
+body.page-node-34 div#hlavni_info_operace{
+    width:340px;
+    margin-left: 100px;
+}
+body.page-node-34 div#operace_bocniobr{
+    position: fixed;
+    left: 0px;
+    top: 500px;
+    z-index: -1000;
+}
+body.page-node-34 div#operace_bocniobr img{
+    width: 516px;
+    height: 329px;
+}
+body.page-node-34 div#hlavni_info_operace{
+    width:420px;
+    margin-left: 0px;
+}
+body.page-node-87{
+    background: #ccc url(../images/pozadi_zakladovani.jpg) no-repeat fixed bottom left;
+}
+body.page-node-87 div#hlavni_info_operace{
+    width:340px;
+    margin-left: 100px;
+}
+body.page-node-87 div#operace_bocniobr{
+    position: fixed;
+    left: 0px;
+    top: 500px;
+    z-index: -1000;
+}
+body.page-node-87 div#operace_bocniobr img{
+    width: 516px;
+    height: 329px;
+}
+body.page-node-87 div#hlavni_info_operace{
+    width:420px;
+    margin-left: 0px;
+}
+body.page-node-29{
+    background: #ccc url(../images/pozadi_zakladovani.jpg) no-repeat fixed bottom left;
+}
+body.page-node-29 div#hlavni_info_operace{
+    width:340px;
+    margin-left: 100px;
+}
+body.page-node-29 div#operace_bocniobr{
+    position: fixed;
+    left: 0px;
+    top: 500px;
+    z-index: -1000;
+}
+body.page-node-29 div#operace_bocniobr img{
+    width: 516px;
+    height: 329px;
+}
+body.page-node-29 div#hlavni_info_operace{
+    width:420px;
+    margin-left: 0px;
+}
+
+/******************************************************************************/
+/* kontrola */
+body.page-node-33{
+    background: #ccc url(../images/pozadi_kontrola.jpg) no-repeat fixed bottom left;
+}
+body.page-node-33 div#operace_bocniobr{
+    position: fixed;
+    left: 0px;
+    top: 500px;
+    z-index: -1000;
+}
+body.page-node-33 div#operace_bocniobr img{
+    width: 430px;
+    height: 274px;
+}
+body.page-node-33 div#hlavni_info_operace{
+    width:400px;
+    margin-left: 0px;
+}
+body.page-node-88{
+    background: #ccc url(../images/pozadi_kontrola.jpg) no-repeat fixed bottom left;
+}
+body.page-node-88 div#operace_bocniobr{
+    position: fixed;
+    left: 0px;
+    top: 500px;
+    z-index: -1000;
+}
+body.page-node-88 div#operace_bocniobr img{
+    width: 430px;
+    height: 274px;
+}
+body.page-node-88 div#hlavni_info_operace{
+    width:400px;
+    margin-left: 0px;
+}
+body.page-node-30{
+    background: #ccc url(../images/pozadi_kontrola.jpg) no-repeat fixed bottom left;
+}
+body.page-node-30 div#operace_bocniobr{
+    position: fixed;
+    left: 0px;
+    top: 500px;
+    z-index: -1000;
+}
+body.page-node-30 div#operace_bocniobr img{
+    width: 430px;
+    height: 274px;
+}
+body.page-node-30 div#hlavni_info_operace{
+    width:400px;
+    margin-left: 0px;
+}
+/******************************************************************************/
+/* logistika */
+body.page-node-32{
+    background: #ccc url(../images/pozadi_logistika.jpg) no-repeat fixed bottom left;
+}
+body.page-node-32 div#operace_bocniobr{
+    position: fixed;
+    left: 0px;
+    top: 360px;
+    z-index: -1000;
+}
+body.page-node-32 div#operace_bocniobr img{
+    width: 430px;
+    height: 337px;
+}
+body.page-node-32 div#hlavni_info_operace{
+    width:400px;
+    margin-left: 0px;
+}
+body.page-node-89{
+    background: #ccc url(../images/pozadi_logistika.jpg) no-repeat fixed bottom left;
+}
+body.page-node-89 div#operace_bocniobr{
+    position: fixed;
+    left: 0px;
+    top: 360px;
+    z-index: -1000;
+}
+body.page-node-89 div#operace_bocniobr img{
+    width: 430px;
+    height: 337px;
+}
+body.page-node-89 div#hlavni_info_operace{
+    width:400px;
+    margin-left: 0px;
+}
+body.page-node-31{
+    background: #ccc url(../images/pozadi_logistika.jpg) no-repeat fixed bottom left;
+}
+body.page-node-31 div#operace_bocniobr{
+    position: fixed;
+    left: 0px;
+    top: 360px;
+    z-index: -1000;
+}
+body.page-node-31 div#operace_bocniobr img{
+    width: 430px;
+    height: 337px;
+}
+body.page-node-31 div#hlavni_info_operace{
+    width:400px;
+    margin-left: 0px;
+}
+/******************************************************************************/
+div#operace_main{
+/*    border:1px solid black;*/
+    text-align: left;
+    line-height: 18px;
+    color: #202020;
+}
+
+div#operace_main>div{
+    display: inline-block;
+}
+
+div#hlavni_info_operace{
+    width: 400px;
+    float: left;
+    font-size: 15px;
+/*    text-align: justify;*/
+}
+
+div#hlavni_info_operace div#dalsi_odkaz{
+    text-align: right;
+    margin-top: 10px;
+}
+
+div#hlavni_info_operace div#dalsi_odkaz div{
+    display: inline-block;
+}
+
+div#hlavni_info_operace div#dalsi_odkaz a.dalsi_link_button{
+    border: 1px solid #404040;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px;
+    display: inline-block;
+    text-align: center;
+    width: 146px;
+    background-color: #404040;
+    color: white;
+}
+
+div#detail_operace{
+    width: 450px;
+/*    height: 350px;*/
+    border-radius: 8px;
+    background-color: rgba(100,100,100,.6);
+    float: right;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+
+
+div.field-name-field-detail-operace-nadpis{
+    color: white;
+    font-weight: bold;
+    font-size:18px;
+}
+
+div.field-name-field-detail-operace-text{
+    color: white;
+    line-height: 14px;
+    font-size:12px;
+/*    text-align: justify;*/
+    margin-left: 120px;
+}
+
+div.field-name-field-detail-operace-obrazek img{
+    float: left;
+    width: 100px;
+    border-radius: 8px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+
+div.field-name-field-hlavni-jmeno-operace{
+    font-weight: bold;
+    font-size:25px;
+    text-shadow: 1px 1px 2px #583D31;
+    color: #dc275c;
+    margin-bottom: 8px;
+}
+
+div.field-name-field-podnadpis-operace{
+
+    margin-top: 3px;
+    font-size:15px;
+}
+/*  ---------------------------------------------   */
+ 
+#block-system-main > div > div > div.field.field-name-field-teas-bild.field-type-image.field-label-hidden > div > div > img{
+float: left;
+width: 500px;
+height: 507px;
+margin-right: 85px;
+
+}
+#block-system-main > div > div > div.field.field-name-field-teas-bild.field-type-image.field-label-hidden > div > div{
+display: block;
+float: left;
+
+} 
+  

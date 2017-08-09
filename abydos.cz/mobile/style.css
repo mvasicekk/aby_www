@@ -1,0 +1,2826 @@
+body.node-type-rozcestnik {
+	margin:0 auto;
+	padding:0;
+	font-family:Arial,sans-serif;
+	font-size:13px;
+	background:#eee url('images/rozcestnik_pozadi.jpg') no-repeat fixed ;
+  line-height:1.4em;
+}
+#page-container {
+    padding: 30px 0 20px 0;
+}
+/* navbar upravy */
+.navbar-collapse{
+	border-top: none!important;
+}
+
+@media (max-width: 768px) {
+	body.node-type-rozcestnik div#bocak{
+		display: none;
+	}
+
+}
+
+
+@media (max-width: 765px) {
+.language-icon{
+	margin-right: 7px;
+	width: 41px;
+	height: auto;
+	margin-top: 7px;
+	margin-bottom: 7px;
+}
+
+div.region-vlajky {
+    margin-top: 0px !important;
+    text-align: center !important;
+    margin-bottom: 21px!important;
+    margin-left: -23px!important;
+}
+
+}
+
+#content{
+	padding: 30px 5px 20px 5px;
+}
+
+@media (min-width: 999px) {
+#wrapper {
+    width: 1000px;
+    margin: 0px auto;
+    padding: 30px 0px;
+}
+div#dvojtext>div{
+    vertical-align: top;
+    display: inline-block;
+    line-height: 16px;
+    color: black;
+    width: 495px;
+    font-size: 15px;
+}
+
+#main-menu li{
+	float:left;
+}
+
+div#slideshow{
+		margin-top: 24px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 0px;
+/*    z-index: -10000;*/
+}
+/* Slideshow */
+
+#slideshow {
+	margin: 50px auto 25px;
+	position: relative;
+	width: 900px;
+}
+
+#slides {
+	clear: both;
+	position:relative;
+	width:900px;
+	margin: auto;
+}
+
+
+.slides_container {
+	width:100%;
+	height:300px;
+	overflow:hidden;
+	position:relative;
+	z-index: 1;
+}
+
+.slides_container a,
+.slides_container img {
+	display: block;
+	height:300px;
+}
+
+}
+
+.mMenu{
+	padding-left: 0px!important;
+	padding-right: 0px!important;
+}
+.navbar-header{
+		background:#333;
+		color: white;
+		font-size: 17px;
+}
+
+ul li.leaf{
+	list-style: none;
+	list-style-image: none;
+}
+/* PRIMARY NAVIGATION		 */
+
+#menu-container{
+	height:28px;
+	text-transform:uppercase;
+	clear:both;
+	background:#333;
+	border-top:1px solid #111;
+	border-bottom:1px solid #000;
+	}
+
+#main-menu {
+	width:100%;
+	margin: 0 auto 0;
+
+	}
+
+#main-menu ul {
+/*	width: 100%;*/
+/*	float: left;*/
+	float:right;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	}
+
+#main-menu li {
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	line-height:25px;
+/*	font-family:BebasNeueRegular,Arial, serif;	*/
+	font-family:Arial, serif;
+	font-weight: bold;
+	font-size:15px;
+	}
+
+#main-menu li a {
+
+	color: #bbb;
+	display: block;
+  margin: 0;
+	padding: 0px 10px;
+	text-transform: uppercase;
+	text-decoration: none;
+	position: relative;
+	text-shadow:1px 1px 0px #000;
+	}
+
+#main-menu li a:hover, #main-menu li a:active, #main-menu .active-trail a, #main-menu li a.active {
+	color: #fff;
+	}
+
+#main-menu li a.sf-with-ul {
+	padding-right: 10px;
+	}
+
+#main-menu li a .sf-sub-indicator {
+
+	display: block;
+	width: 10px;
+	height: 10px;
+	text-indent: -9999px;
+	overflow: hidden;
+	position: absolute;
+	top: 19px;
+	right: 5px;
+	}
+
+#main-menu li li a, #main-menu li li a:link, #main-menu li li a:visited {
+	background: #444;
+	color: #ddd;
+	width: 170px;
+	font-family: Arial, Tahoma, Verdana;
+	margin: 0;
+	padding: 0px 10px;
+	line-height:30px;
+	border-left: 1px solid #333;
+	border-right: 1px solid #333;
+	border-bottom: 1px solid #333;
+	text-transform: none;
+	position: relative;
+	font-size:12px;
+	}
+
+#main-menu li li a:hover, #main-menu li li a:active {
+	background: #4a4a4a;
+	color: #fff;
+	}
+
+#main-menu li li a .sf-sub-indicator {
+
+	top: 10px;
+	}
+
+#main-menu li ul {
+	z-index: 400;
+	position: absolute;
+	left: -999em;
+	height: auto;
+	width: 170px;
+	margin: -1px 0px 0px 0px;
+	padding: 0;
+	}
+
+#main-menu li ul a {
+	width: 150px;
+	}
+
+#main-menu li ul a:hover, #main-menu li ul a:active {
+	}
+
+#main-menu li ul ul {
+	margin: -31px 0 0 169px;
+	}
+
+#main-menu li:hover ul ul, #main-menu li:hover ul ul ul, #main-menu li.sfHover ul ul, #main-menu li.sfHover ul ul ul {
+	left: -999em;
+	}
+
+#main-menu li:hover ul, #main-menu li li:hover ul, #main-menu li li li:hover ul, #main-menu li.sfHover ul, #main-menu li li.sfHover ul, #main-menu li li li.sfHover ul {
+	left: auto;
+	}
+
+#main-menu li:hover, #main-menu li.sfHover {
+	position: static;
+	}
+
+		div.region-vlajky{
+			    float: right;
+			    height: 22px;
+			    margin-top: -29px;
+		}
+		ul.language-switcher-locale-url {
+    list-style-type: none;
+		}
+		ul.language-switcher-locale-url>li {
+    display: inline;
+		}
+
+@media (max-width: 900px) {
+	.imgresponsive{
+		max-width: 100% !important;
+		height: auto !important;
+	}
+/* Rozcestnik */
+div.horizontalnecentrovanysipka {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+/* End of tablet view*/
+}
+@media (max-width: 767px) {
+	li.last:nth-child(8) > a:nth-child(1) > img:nth-child(1){
+		display: none;
+	}
+	#main-menu li li a, #main-menu li li a:link, #main-menu li li a:visited {
+		background: none!important;
+	}
+	#main-menu li ul{
+		position: static!important;
+	}
+	#main-menu li ul {
+    margin-left: auto!important;
+    margin-right: auto!important;
+}
+
+	#logoimg{
+		text-align: center!important;
+	}
+	div.region-vlajky{
+		margin-top: 0px !important;
+		text-align: center !important;
+		float: none;
+		margin-bottom: 5px;
+	}
+	#menu-container{
+		height: auto;
+	}
+	#main-menu li {
+		float: none;
+	}
+	#main-menu{
+		width: 100%!important;
+	}
+	#main-menu ul {
+	/*	width: 100%;*/
+	/*	float: left;*/
+		float:none;
+		list-style: none;
+		text-align: center;
+	}
+	/* Rozcestnik */
+	.horizontalnecentrovany{
+		display: block !important;
+		width: 100% !important;
+		margin: auto !important;
+		height: 100px !important;
+	}
+	div.horizontalnecentrovanysipka{
+		display: none !important;
+	}
+	div#footer table td {
+    text-align: center!important;
+    color: white;
+    font-weight: bold;
+    padding: 4px;
+    width: 100% !important;
+    display: block !important;
+}
+div#footer {
+    position: block!important;
+    bottom: 10px;
+    width: 100%!important;
+    background-color: #333;
+    height: 100% !important;
+    padding: 0px;
+    margin: 0px;
+}
+div#footer table{
+	width: 100%!important;
+}
+
+
+	/* End of mobile view*/
+}
+
+
+tbody {
+    border-top: none;
+}
+
+#slides .next,
+#slides .prev {
+  position:absolute;
+  top: 0;
+  left: 0px;
+  width:38px;
+  height:38px;
+  background-image:url('images/slides_arrows.png');
+  z-index:10;
+}
+
+#slides .next {
+  left:176px;
+}
+
+.slides_nav {
+  display: none;
+}
+
+
+.slides_nav a.prev {
+  background-position: 0 0;
+  margin: 181px 0 0 0px;
+}
+
+.slides_nav a:hover.prev {
+  background-position: 80px 200px;
+}
+
+.slides_nav a.next {
+  background-position: 160px 0;
+  margin: 181px 0 0 686px;
+}
+
+.slides_nav a:hover.next {
+  background-position: 40px 200px;
+}
+
+#slides ul.pagination {
+  border: 0;
+  position: absolute;
+  z-index: 10;
+  margin: -25px 0 0 15px;
+}
+
+#slides ul.pagination li {
+  float:left;
+  margin: 0 10px 0 0;
+  list-style:none;
+}
+
+#slides ul.pagination li a {
+  display:block;
+  width:12px;
+  height:0;
+  padding-top:12px;
+  background: url('images/slides_arrows.png') 0 160px;
+  float:left;
+  overflow:hidden;
+}
+
+#slides ul.pagination li.current a {
+  background: url('images/slides_arrows.png') 188px 160px;
+}
+/* Rozcestnik */
+/* rozcestnik */
+div#abybanner{
+    width: 100%;
+    height: 60px;
+    overflow: hidden;
+/*    border:1px solid black;*/
+}
+
+div#ikonovyrozcestnik{
+/*    height: 150px;*/
+    text-align: center;
+    margin-top:0px;
+/*    border:1px solid black;*/
+}
+
+div#ikonovyrozcestnik>div{
+    display: inline-block;
+/*    border:1px solid black;*/
+}
+
+
+
+/* dvojtext */
+div#dvojtext{
+    margin-top: 50px;
+  /*  text-align: center;*/
+/*    height: 250px;*/
+/*    border:1px solid black;*/
+}
+
+@media (max-width: 768px) {
+	div#dvojtext{
+		text-align: center!important;
+	}
+	div#dvojtext > div#kdojsme{
+		float: none !important;
+	}
+}
+div#dvojtext>div#kdojsme{
+    padding-right: 0px;
+		float: left;
+}
+div#dvojtext>div#conabizime{
+    padding-left: 0px;
+}
+
+div.field-name-field-kdo-jsme-nadpis{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+div.field-name-field-kdo-jsme-text{
+    text-align: left;
+}
+
+div.field-name-field-co-nab-z-me-nadpis{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+div.field-name-field-co-nab-z-me-text{
+    text-align: left;
+}
+
+body.node-type-rozcestnik div#bocak{
+    width:187px;
+    height:570px;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    background: url('images/rozcestnik_bocak.png') no-repeat fixed right top;
+    z-index: -1000;
+}
+
+body.node-type-rozcestnik .block{
+    margin: 0;
+}
+
+div.horizontalnecentrovanysipka{
+    position: relative;
+    top: -44px;
+}
+
+div.rozcestnik_operace_odkaz{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 5px;
+/*    border: 1px solid black;*/
+    border-radius: 5px;
+    background-color: #404040;
+}
+
+div.rozcestnik_operace_odkaz>a{
+    color: white;
+}
+
+
+/* Footer  */
+div#footer{
+/*    position: fixed;
+    bottom: 10px;
+    width: 1000px;*/
+    background-color: #333;
+    height: 28px;
+    padding: 0px;
+    margin: 0px;
+}
+
+div#footer table{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-top: 3px;
+    padding-left: 10px;
+}
+
+div#footer td{
+    background: none;
+}
+
+div#footer table td{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+/*div#content-container{
+    height: 600px
+}*/
+/* ******************************************************************* */
+/* ******************************************************************* */
+/* ******************************************************************* */
+/* ******************************************************************* */
+/* node-type-operace  */
+body.page-node-72 {
+    background: #ccc url('images/pozadi_tryskani.jpg') no-repeat fixed;
+}
+body.page-node-234{
+		background: #ccc url('images/pozadi_tryskani.jpg') no-repeat fixed;
+}
+body.page-node-27{
+		background: #ccc url('images/pozadi_tryskani.jpg') no-repeat fixed;
+}
+div.field-name-field-hlavni-jmeno-operace {
+    font-weight: bold;
+    font-size: 25px;
+    text-shadow: 1px 1px 2px #583D31;
+    color: #dc275c;
+    margin-bottom: 8px;
+}
+/* node-type-operace mobile view */
+@media (max-width: 767px) {
+	#operace_bocniobr{
+		display: none;
+	}
+	/* Dalsi operace odkaz */
+	div#hlavni_info_operace div#dalsi_odkaz{
+		/*text-align: right!important;*/
+	 	margin-top: 10px!important;
+	 	/* margin-left: auto; */
+	 	/* margin-right: auto; */
+	 /*	width: 96%!important;*/
+	 	margin-bottom: 10px!important;
+	}
+	body.page-node-72 div#hlavni_info_operace {
+    width: 100%!important;
+    margin-left: 0px!important;
+	}
+	div#detail_operace {
+	width: 100%!important;
+	}
+
+} /* End of mobile view */
+/* node-type-operace tablet view */
+@media (max-width: 900px) {
+	#operace_bocniobr{
+		display: none;
+	}
+	body.page-node-72 div#hlavni_info_operace {
+    width: 306px!important;
+    margin-left: 12px!important;
+}
+}/* End of tablet view */
+
+/* Dalsi operace odkaz */
+div#hlavni_info_operace div#dalsi_odkaz{
+  /*  text-align: right;*/
+    margin-top: 10px;
+}
+
+div#hlavni_info_operace div#dalsi_odkaz div{
+    display: inline-block;
+}
+
+div#hlavni_info_operace div#dalsi_odkaz a.dalsi_link_button{
+    border: 1px solid #404040;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px;
+    display: inline-block;
+    text-align: center;
+    width: 146px;
+    background-color: #404040;
+    color: white;
+}
+/* end of Dalsi operace odkaz */
+/* tryskani */
+body.page-node-72 div#operace_bocniobr{
+    position: fixed;
+    left: -86px;
+    top: 170px;
+    z-index: -1000;
+}
+body.page-node-72 div#operace_bocniobr img{
+    width: 275px;
+    height: 538px;
+}
+body.page-node-72 div#hlavni_info_operace{
+    width:306px;
+    margin-left: 127px;
+}
+body.page-node-85{
+    background: #ccc url('images/pozadi_tryskani.jpg') no-repeat fixed left;
+}
+body.page-node-85 div#operace_bocniobr{
+    position: fixed;
+    left: -91px;
+    top: 170px;
+    z-index: -1000;
+}
+body.page-node-85 div#operace_bocniobr img{
+    width: 275px;
+    height: 538px;
+}
+body.page-node-85 div#hlavni_info_operace{
+    width:306px;
+    margin-left: 127px;
+}
+
+body.page-node-27{
+    background: #ccc url(images/pozadi_tryskani.jpg) no-repeat fixed left;
+}
+body.page-node-27 div#operace_bocniobr{
+    position: fixed;
+    left: -32px;
+    top: 170px;
+    z-index: -1000;
+}
+body.page-node-27 div#operace_bocniobr img{
+    width: 275px;
+    height: 538px;
+}
+
+body.page-node-27 div#hlavni_info_operace{
+    width:306px;
+    margin-left: 127px;
+}
+div#detail_operace{
+    width: 450px;
+/*  height: 350px;*/
+    border-radius: 8px;
+    background-color: rgba(100,100,100,.6);
+    float: right;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+div#operace_main{
+/*  border:1px solid black; */
+    text-align: left;
+    line-height: 18px;
+    color: #202020;
+}
+
+div#operace_main>div{
+    display: inline-block;
+}
+.field-collection-view .entity-field-collection-item {
+    width: 100%;
+}
+.field-collection-view .entity-field-collection-item {
+    float: left;
+}
+div.field-name-field-detail-operace-nadpis {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+div.field-name-field-detail-operace-text {
+    color: white;
+    line-height: 14px;
+    font-size: 12px;
+    /* text-align: justify; */
+    margin-left: 120px;
+}
+div.field-name-field-detail-operace-obrazek img {
+    float: left;
+    width: 100px;
+    border-radius: 8px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+#page-container {
+    padding: 30px 0 20px 0;
+}
+
+body.page-node-72 .row{
+	margin-right: 0px!important;
+}
+body.page-node-35 .row{
+	margin-right: 0px!important;
+}
+body.node-type-operace .row{
+	margin-right: 0px!important;
+}
+body.page-node-33 .row{
+	margin-right: 0px!important;
+}
+body.page-node-32 .row{
+	margin-right: 0px!important;
+}
+body.page-node-70 .row{
+	margin-right: 0px!important;
+	margin-left: 0px!important;
+}
+body.page-node-59 .row{
+	margin-right: 0px!important;
+	margin-left: 0px!important;
+}
+body.page-node-30 .row{
+	margin-right: 0px!important;
+	margin-left: 0px!important;
+}
+body.page-node-37 .row{
+	margin-right: 0px!important;
+	margin-left: 0px!important;
+}
+.row{
+	margin-right: 0px!important;
+	margin-left: 0px!important;
+}
+.mainOperation{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.field-name-field-loga-firem{
+	width: 80%;
+	margin-left: auto;
+}
+/******************************************************************************/
+/******************************************************************************/
+/* brouseni */
+@media (max-width: 900px) {
+	body.page-node-35 div#hlavni_info_operace {
+	    width: 320px!important;
+	    margin-left: 0px!important;
+	}
+}/* End of tablet view */
+
+body.page-node-35{
+    background: #ccc url(images/pozadi_brouseni.jpg) no-repeat left;
+}
+body.page-node-235{
+    background: #ccc url(images/pozadi_brouseni.jpg) no-repeat left;
+}
+body.page-node-35 div#operace_bocniobr{
+    position: fixed;
+    left: 0px;
+    top: 400px;
+    z-index: -1000;
+}
+body.page-node-35 div#operace_bocniobr img{
+    width: 362px;
+    height: 520px;
+}
+body.page-node-35 div#hlavni_info_operace{
+    width:400px;
+    margin-left: 0px;
+}
+body.page-node-86{
+    background: #ccc url(images/pozadi_brouseni.jpg) no-repeat fixed left;
+}
+body.page-node-86 div#operace_bocniobr{
+    position: fixed;
+    left: 0px;
+    top: 400px;
+    z-index: -1000;
+}
+body.page-node-86 div#operace_bocniobr img{
+    width: 362px;
+    height: 520px;
+}
+body.page-node-86 div#hlavni_info_operace{
+    width:400px;
+    margin-left: 0px;
+}
+body.page-node-28{
+    background: #ccc url(images/pozadi_brouseni.jpg) no-repeat fixed left;
+}
+body.page-node-28 div#operace_bocniobr{
+    position: fixed;
+    left: 0px;
+    top: 400px;
+    z-index: -1000;
+}
+body.page-node-28 div#operace_bocniobr img{
+    width: 362px;
+    height: 520px;
+}
+body.page-node-28 div#hlavni_info_operace{
+    width:400px;
+    margin-left: 0px;
+}
+
+/******************************************************************************/
+/* final */
+@media (max-width: 900px) {
+	body.page-node-34 div#hlavni_info_operace {
+	    width: 300px!important;
+	    margin-left: 0px!important;
+	}
+}/* End of tablet view */
+body.page-node-34{
+    background: #ccc url(images/pozadi_zakladovani.jpg) no-repeat left;
+}
+body.page-node-237{
+    background: #ccc url(images/pozadi_zakladovani.jpg) no-repeat left;
+}
+body.page-node-34 div#hlavni_info_operace{
+    width:340px;
+    margin-left: 100px;
+}
+body.page-node-34 div#operace_bocniobr{
+    position: fixed;
+    left: 0px;
+    top: 500px;
+    z-index: -1000;
+}
+body.page-node-34 div#operace_bocniobr img{
+    width: 516px;
+    height: 329px;
+}
+body.page-node-34 div#hlavni_info_operace{
+    width:420px;
+    margin-left: 0px;
+}
+body.page-node-87{
+    background: #ccc url(images/pozadi_zakladovani.jpg) no-repeat fixed bottom left;
+}
+body.page-node-87 div#hlavni_info_operace{
+    width:340px;
+    margin-left: 100px;
+}
+body.page-node-87 div#operace_bocniobr{
+    position: fixed;
+    left: 0px;
+    top: 500px;
+    z-index: -1000;
+}
+body.page-node-87 div#operace_bocniobr img{
+    width: 516px;
+    height: 329px;
+}
+body.page-node-87 div#hlavni_info_operace{
+    width:420px;
+    margin-left: 0px;
+}
+body.page-node-29{
+    background: #ccc url(images/pozadi_zakladovani.jpg) no-repeat top left;
+}
+body.page-node-29 div#hlavni_info_operace{
+    width:340px;
+    margin-left: 100px;
+}
+body.page-node-29 div#operace_bocniobr{
+    position: fixed;
+    left: 0px;
+    top: 500px;
+    z-index: -1000;
+}
+body.page-node-29 div#operace_bocniobr img{
+    width: 516px;
+    height: 329px;
+}
+body.page-node-29 div#hlavni_info_operace{
+    width:420px;
+    margin-left: 0px;
+}
+/* */
+@media (max-width: 900px) {
+div.field-name-field-detail-operace-nadpis{
+	font-size: 12px!important;
+	}
+}
+
+/******************************************************************************/
+/* kontrola */
+@media (max-width: 900px) {
+	body.node-type-operace div#hlavni_info_operace {
+	    width: 280px!important;
+	    margin-left: 0px!important;
+	}
+	body.page-node-35 div#hlavni_info_operace {
+	    width: 280px!important;
+	    margin-left: 0px!important;
+	}
+	body.page-node-28 div#hlavni_info_operace {
+	    width: 280px!important;
+	    margin-left: 0px!important;
+	}
+	body.page-node-86 div#hlavni_info_operace {
+	    width: 280px!important;
+	    margin-left: 0px!important;
+	}
+	body.page-node-34 div#hlavni_info_operace {
+	    width: 280px!important;
+	    margin-left: 0px!important;
+	}
+	body.page-node-30 div#hlavni_info_operace {
+	    width: 280px!important;
+	    margin-left: 0px!important;
+	}
+}/* End of tablet view */
+body.page-node-33{
+    background: #ccc url(images/pozadi_kontrola.jpg) no-repeat left;
+}
+body.page-node-239{
+    background: #ccc url(images/pozadi_kontrola.jpg) no-repeat left;
+}
+body.page-node-33 div#operace_bocniobr{
+    position: fixed;
+    left: 0px;
+    top: 500px;
+    z-index: -1000;
+}
+body.page-node-33 div#operace_bocniobr img{
+    width: 430px;
+    height: 274px;
+}
+body.page-node-33 div#hlavni_info_operace{
+    width:400px;
+    margin-left: 0px;
+}
+body.page-node-88{
+    background: #ccc url(images/pozadi_kontrola.jpg) no-repeat fixed left;
+}
+body.page-node-88 div#operace_bocniobr{
+    position: fixed;
+    left: 0px;
+    top: 500px;
+    z-index: -1000;
+}
+body.page-node-88 div#operace_bocniobr img{
+    width: 430px;
+    height: 274px;
+}
+body.page-node-88 div#hlavni_info_operace{
+    width:400px;
+    margin-left: 0px;
+}
+body.page-node-30{
+    background: #ccc url(images/pozadi_kontrola.jpg) no-repeat left;
+}
+body.page-node-30 div#operace_bocniobr{
+    position: fixed;
+    left: 0px;
+    top: 500px;
+    z-index: -1000;
+}
+body.page-node-30 div#operace_bocniobr img{
+    width: 430px;
+    height: 274px;
+}
+body.page-node-30 div#hlavni_info_operace{
+    width:400px;
+    margin-left: 0px;
+}
+/******************************************************************************/
+/* logistika */
+@media (max-width: 900px) {
+	body.page-node-32 div#hlavni_info_operace {
+	    width: 280px!important;
+	    margin-left: 0px!important;
+	}
+}/* End of tablet view */
+body.page-node-32{
+    background: #ccc url(images/pozadi_logistika.jpg) no-repeat fixed ;
+}
+body.page-node-240{
+    background: #ccc url(images/pozadi_logistika.jpg) no-repeat fixed ;
+}
+body.page-node-32 div#operace_bocniobr{
+    position: fixed;
+    left: 0px;
+    top: 360px;
+    z-index: -1000;
+}
+body.page-node-32 div#operace_bocniobr img{
+    width: 430px;
+    height: 337px;
+}
+body.page-node-32 div#hlavni_info_operace{
+    width:400px;
+    margin-left: 0px;
+}
+body.page-node-89{
+    background: #ccc url(images/pozadi_logistika.jpg) no-repeat fixed left;
+}
+body.page-node-89 div#operace_bocniobr{
+    position: fixed;
+    left: 0px;
+    top: 360px;
+    z-index: -1000;
+}
+body.page-node-89 div#operace_bocniobr img{
+    width: 430px;
+    height: 337px;
+}
+body.page-node-89 div#hlavni_info_operace{
+    width:400px;
+    margin-left: 0px;
+}
+body.page-node-31{
+    background: #ccc url(images/pozadi_logistika.jpg) no-repeat fixed left;
+}
+body.page-node-31 div#operace_bocniobr{
+    position: fixed;
+    left: 0px;
+    top: 360px;
+    z-index: -1000;
+}
+body.page-node-31 div#operace_bocniobr img{
+    width: 430px;
+    height: 337px;
+}
+body.page-node-31 div#hlavni_info_operace{
+    width:400px;
+    margin-left: 0px;
+}
+/******************************************************************************/
+/* node-type-portrait */
+/******************************************************************************/
+/******************************************************************************/
+/******************************************************************************/
+/* portret */
+@media (max-width: 900px) {
+
+}/* End of tablet view */
+.field-name-field-oceneni > div:nth-child(1) > div:nth-child(1) {
+    color: #dc275c;
+    font-weight: bold;
+}
+
+body..page-node-69{
+    background-color: white!important;
+}
+
+div#portret_main{
+/*    width: 100%;*/
+    text-align: left;
+    line-height: 18px;
+    color: #202020;
+/*    border:1px solid black;*/
+}
+div#portrait_foto{
+    left: 0px;
+    vertical-align: top;
+    display: inline-block;
+    margin-top: 66px;
+/*    border:1px solid black;*/
+}
+
+div#portrait_short_description{
+    font-size: 15px;
+/*    text-align: justify;*/
+/*    border:1px solid black;*/
+}
+
+div.field-name-field-hlavni-nadpis{
+    font-weight: bold;
+/*    font-size:20px;*/
+    font-size:25px;
+    text-shadow: 1px 1px 2px #583D31;
+    color: #dc275c;
+    margin-bottom: 8px;
+}
+
+div.field-name-field-podnadpis{
+
+    margin-top: 3px;
+    font-size:15px;
+}
+
+div.field-name-field-dlouhy-popis{
+    margin-top: 20px;
+}
+
+div.field-name-field-historie-nadpis{
+/*    margin-top: 20px;*/
+    color: #dc275c;
+    font-weight: bold;
+}
+
+div.field-name-field-historie-text{
+    margin-top: 20px;
+}
+
+div.field-name-field-cim-se-zabyvame-nadpis{
+    margin-top: 20px;
+    color: #dc275c;
+    font-weight: bold;
+}
+
+div.field-name-field-cim-se-zabyvame-text{
+/*    margin-top: 20px;*/
+    margin-top: 20px;
+}
+
+div.field-name-field-reference-nadpis{
+    margin-top: 20px;
+    color: #dc275c;
+    font-weight: bold;
+}
+
+div.field-name-field-reference-text{
+/*  margin-top: 20px;  */
+    margin-top: 20px;
+}
+
+div.field-name-field-abyvideo{
+/*    margin-top: 20px;  */
+    margin-top: 20px;
+}
+
+div.field-name-field-o-co-usilujeme-nadpis{
+    margin-top: 20px;
+    color: #dc275c;
+    font-weight: bold;
+}
+
+div.field-name-field-o-co-usilujeme-text{
+    margin-top: 20px;
+}
+/* node portrait foto  */
+.field-name-field-portrait-foto > div:nth-child(1) > div:nth-child(1) > a:nth-child(1) > img:nth-child(1){
+	width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+}
+
+/* Loga firem node-type-portrait */
+.logofirem{
+
+}
+/* Hospod komora 1 */
+.field-name-field-loga-firem > div:nth-child(1) > div:nth-child(1) > a:nth-child(1) > img:nth-child(1){
+	float: left;
+	width: 9%;
+	height: 14%;
+}
+/* CMA */
+div.field-item:nth-child(2) > a:nth-child(1) > img:nth-child(1){
+	width: 14%;
+	height: 25%;
+	float: left;
+	margin-right: 5px;
+}
+/* SP  */
+div.field-item:nth-child(3) > a:nth-child(1) > img:nth-child(1){
+	width: 13%;
+  height: 20%;
+  float: left;
+}
+/* EU */
+div.field-item:nth-child(4) > a:nth-child(1) > img:nth-child(1){
+	margin-right: 15px;
+	float: left;
+	width: 11%;
+	height: 17%;
+}
+/* Svaz něčeho */
+div.field-item:nth-child(5) > a:nth-child(1) > img:nth-child(1){
+	float: left;
+  width: 11%;
+  height: 12%;
+}
+/*  DE CZ */
+div.field-item:nth-child(6) > a:nth-child(1) > img:nth-child(1){
+	width: 15%;
+	height: 22%;
+}
+@media (max-width: 765px) {
+	.field-name-field-loga-firem{
+		margin-top: 27px;
+		text-align: center!important;
+		width: 100%!important;
+	}
+	/* Hospod komora 1 */
+	.field-name-field-loga-firem > div:nth-child(1) > div:nth-child(1) > a:nth-child(1) > img:nth-child(1){
+		float: none!important;
+		width: 23%!important;
+		height: 14%!important;
+	}
+	/* CMA */
+	div.field-item:nth-child(2) > a:nth-child(1) > img:nth-child(1){
+		margin-top: 15px!important;
+		width: 44%!important;
+		height: 25%!important;
+		float: none!important;
+	}
+	/* SP  */
+	div.field-item:nth-child(3) > a:nth-child(1) > img:nth-child(1){
+		margin-top: 15px!important;
+		width: 44%!important;
+		height: 20%!important;
+		float: none!important;
+}
+	/* EU */
+	div.field-item:nth-child(4) > a:nth-child(1) > img:nth-child(1){
+		margin-top: 15px!important;
+		margin-right: 0px!important;
+		float: none!important;
+		width: 42%!important;
+		height: 17%!important;
+	}
+	/* Svaz něčeho */
+	div.field-item:nth-child(5) > a:nth-child(1) > img:nth-child(1) {
+    float: none!important;
+    width: 39%!important;
+    height: 12%!important;
+	}
+	/*  DE CZ */
+	div.field-item:nth-child(6) > a:nth-child(1) > img:nth-child(1) {
+		margin-top: 15px!important;
+	  width: 50%!important;
+	  height: 22%!important;
+	}
+}
+/******************************************************************************/
+/* odsazení top left bot right */
+.content{
+
+}
+.field-name-field-soc-partner > div:nth-child(1) > div:nth-child(1) > img:nth-child(1){
+	width: 100%;
+	height: auto;
+}
+body.page-node-41 #ikon{
+	display: none!important;
+}
+body.page-node-79 #ikon{
+	display: none!important;
+}
+body.page-node-242 #ikon{
+	display: none!important;
+}
+/* =========================== */
+/* kvalita */
+.field-name-field-certifikat-velky > div:nth-child(1) > div:nth-child(1) > a:nth-child(1) > img:nth-child(1){
+	margin-right: 10px;
+}
+li.beztecky {
+    list-style-type: none;
+}
+@media (min-width: 999px) {
+	.zert{
+		margin-left: 30px;
+	}
+
+}
+
+@media (max-width: 900px) {
+	body.node-type-kvalita div#hlavni_info_operace {
+	    width: 100%!important;
+	    margin-left: 0px!important;
+	}
+}/* End of tablet view */
+
+@media (max-width: 768px){
+	div.field-name-field-certifikat-pravy {
+			display: inline-block;
+			margin-left: 0px!important;
+			margin-top: 20px!important;
+	}
+	.zert{
+		text-align: center!important;
+	}
+}
+
+body.node-type-kvalita{
+    background:#ccc url('images/kvalita_pozadi_1.jpg') no-repeat fixed center top;
+/*    background-color: #cccccc;*/
+}
+body.node-type-kvalita div#operace_bocniobr{
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    z-index: -1000;
+}
+
+body.node-type-kvalita div#detail_operace{
+    text-align: center;
+    background: none;
+    width:560px;
+}
+
+body.node-type-kvalita div#operace_bocniobr img{
+    width: 330px;
+    height: 330px;
+}
+body.node-type-kvalita div#hlavni_info_operace{
+    width:393px;
+    margin-left: 0px;
+}
+
+div.field-name-field-kvalita-hlavni-nadpis{
+    font-weight: bold;
+    font-size:25px;
+    text-shadow: 1px 1px 2px #583D31;
+    color: #dc275c;
+    margin-bottom: 8px;
+}
+
+div.field-name-field-kvalita-podnadpis{
+    margin-top: 3px;
+    font-size:15px;
+}
+
+
+div.field-name-field-certifikat-velky{
+	display:inline-block;
+}
+
+div.field-name-field-certifikat-pravy{
+	display:inline-block;
+	margin-left:20px;
+}
+
+
+div.field-name-field-kvalita-dlouhy-text{
+    margin-top: 20px;
+}
+/******************************************************************************/
+/* node-type-news */
+/******************************************************************************/
+/* news */
+body.node-type-news{
+    background:#ccc url('images/pozadi_news_1.jpg') no-repeat fixed center top;
+/*    background-color: #cccccc;*/
+}
+@media (max-width: 999px){
+	body.node-type-news div#detail_operace{
+		width: 100%!important;
+	}
+}
+
+@media (max-width: 765px){
+	.field-name-field-obrazek-priloha{
+	display: none;
+	}
+	body.node-type-novinka div.field-name-body{
+		border-right: none!important;
+		width: 100%!important;
+	}
+}
+body.node-type-news div#detail_operace{
+    width: 100%;
+    border-radius: 8px;
+    background-color: rgba(255,255,255,.6);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #202020;
+    width: 430px;
+}
+
+body.node-type-news div.views-field-body {
+    font-size: 11px;
+}
+body.node-type-news div.view-header p{
+    margin: 0px;
+}
+
+body.node-type-news div.view-header{
+    border-radius: 8px;
+    background-color: rgba(0,0,0,.6);
+    text-align: left;
+    padding-top: 7px;
+    padding-bottom: 8px;
+    padding-left: 11px;
+    padding-right: 10px;
+    color: white;
+    margin-top: -20px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+body.node-type-news div.views-field-title {
+    border-bottom: 1px solid black;
+    margin-bottom: 3px;
+    margin-top: 0px;
+}
+
+body.node-type-news div.views-field-title a{
+    color: #dc275c;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+body.node-type-news div.view-hlavni-zprava div.views-field-title a{
+font-weight: bold;
+font-size: 25px;
+text-shadow: 1px 1px 2px #583D31;
+color: #dc275c;
+margin-bottom: 8px;
+}
+
+body.node-type-news div.view-hlavni-zprava div.views-field-title {
+    border: none;
+    margin-bottom: 10px;
+}
+
+body.node-type-news div.views-field-field-uvodni-obrazek {
+    float: left;
+    margin-right: 10px;
+}
+
+body.node-type-news div#hlavni_info_operace div.views-field-field-uvodni-text{
+    font-weight: bold;
+    font-size:15px;
+}
+
+body.node-type-news div#hlavni_info_operace div.views-field-body{
+    font-size:15px;
+}
+
+/******************************************************************************/
+/* novinka node */
+body.node-type-novinka{
+    background:#ccc url('images/pozadi_news.jpg') no-repeat fixed center top;
+}
+
+body.node-type-novinka div#content-container{
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    padding: 20px;
+    opacity: 1;
+		height: auto;
+		display: flex;
+}
+
+body.node-type-novinka div.field-name-field-obrazek-priloha{
+	border-top: 3px solid #333;
+	padding: 10px;
+	margin-top: 0px;
+	float: right;
+	width: 265px;
+	border-left: 1px dotted black;
+}
+
+body.node-type-news a{
+    color: #dc275c;
+/*    font-size: 15px;*/
+    font-weight: bold;
+}
+body.node-type-novinka div.field-name-body {
+/* clear: left; */
+font-size: 15px;
+margin-top: 10px;
+width: 100%;
+/* border-right: 1px dotted black; */
+padding-right: 1.5em;
+}
+
+body.node-type-novinka table td{
+    background-color: white;
+    border: none;
+}
+
+body.node-type-novinka table{
+    border: none;
+}
+
+div.field-name-field-uvodni-obrazek {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #ccc;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+div.field-name-field-uvodni-text {
+    font-weight: bold;
+    font-size:15px;
+}
+
+div.field-name-field-nadpis-novinky {
+font-weight: bold;
+font-size: 25px;
+text-shadow: 1px 1px 2px #583D31;
+color: #dc275c;
+margin-bottom: 20px;
+}
+
+div.field-name-field-datum-udalosti {
+margin-bottom: 10px;
+font-weight: bold;
+}
+
+div.field-name-body {
+/*    clear: left;*/
+    font-size:15px;
+    margin-top: 10px;
+}
+
+div.field-name-body p{
+/*    clear: left;*/
+    text-indent: 2em;
+    /*text-align: justify;*/
+}
+
+div.views-field-body p{
+/*    clear: left;*/
+  /*  text-align: justify;*/
+}
+
+div.field-name-field-odkazy-ke-zprave {
+margin-bottom: 29px;
+padding-top: 3px;
+}
+
+div.field-name-field-odkazy-ke-zprave a{
+    color: #dc275c;
+/*    font-size: 15px;*/
+    font-weight: bold;
+}
+div.field-name-field-priloha-ke-zprave {
+border-top: 1px solid black;
+}
+.pager {
+    text-align: left!important;
+    list-style: none;
+}
+
+.item-list .pager li {
+    background: #cfcfcf!important;
+    border-radius: 3px!important;
+    margin-right: -17px !important;
+    text-shadow: 1px 1px #fff!important;
+
+}
+.item-list .pager li {
+    background-image: none !important;
+    display: inline!important;
+    list-style-type: none!important;
+    padding: 0.5em!important;
+}
+.item-list ul li {
+    margin: 0!important;
+    padding: 0!important;
+}
+.item-list ul li {
+    margin: 0 0 0.25em 1.5em!important;
+    padding: 0!important;
+}
+.pager-current {
+    font-weight: bold!important;
+}
+.pager li > a, .pager li > span {
+    background-color:#cfcfcf!important;
+		border-radius: 15px!important;
+		padding: 2px 0px!important;
+}
+/******************************************************************************/
+/* kontakt */
+/*body.node-type-kontakt{
+    background:#ccc url('../images/pozadi_kontakt.jpg') no-repeat fixed center top;
+    background-color: #cccccc;
+}*/
+@media (max-width: 764px){
+	#kontakt_mapa{
+		display: none;
+	}
+	div.field-name-field-uvodni-obrazek{
+		float: none;
+		text-align: center;
+	}
+	div#adresy{
+		float: none!important;
+		width: 100%!important;
+		margin-left: auto!important;
+		margin-right: auto!important;
+	}
+	#kontakt_cz{
+		text-align: center!important;
+	}
+	#kontakt_de{
+		text-align: center!important;
+	}
+}
+
+body.node-type-kontakt{
+    background:#ccc url('images/rozcestnik_pozadi.jpg') no-repeat fixed center top;
+/*    background-color: #cccccc;*/
+}
+div#kontakt_main{
+    text-align: center;
+    line-height: 19px;
+    color: #202020;
+    margin-top: 20px;
+    height: 500px;
+/*    border: 1px solid black;*/
+}
+
+div#kontakt_main a{
+    color: #dc275c;
+}
+
+div#kontakt_nadpis{
+/*    height: 80px;*/
+/*    border:1px solid black;*/
+}
+
+div#adresy{
+    float: left;
+    margin-right: 30px;
+    width: 346px;
+}
+
+div#kontakt_cz{
+    border-radius: 8px;
+    background-color: rgba(200,200,200,.6);
+    padding: 10px;
+    text-align: left;
+}
+
+div#kontakt_de{
+    margin-top: 34px;
+    border-radius: 8px;
+    background-color: rgba(200,200,200,.6);
+    padding: 10px;
+    text-align: left;
+}
+
+div#kontakt_mapa{
+    border-radius: 8px;
+  /*  background-color: rgba(200,200,200,.6);*/
+    text-align: left;
+    overflow:hidden;
+  /*  width: 480px;
+    height: 450px;*/
+}
+
+div#kontakt_pozvanka{
+    border-radius: 8px;
+    background-color: rgba(200,200,200,.6);
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cistic{
+    clear:both;
+    height: 1px;
+    border: none;
+    margin: -1em 0 0 0;
+    visibility: hidden;
+}
+
+div#kontakt_pozvanka p{
+    margin: 0px;
+}
+
+div.field-name-field-kontakt-hlavni-nadpis{
+    font-weight: bold;
+    font-size:25px;
+    text-shadow: 1px 1px 2px #583D31;
+    color: #dc275c;
+    margin-bottom: 8px;
+}
+
+div.field-name-field-kontakt-podnadpis{
+    margin-top: 3px;
+    font-size:15px;
+}
+
+div.field-name-field-navstivte-nas-text{
+    margin-top: 3px;
+    font-size:15px;
+}
+hr.cistic{
+    clear:both;
+    height: 1px;
+    border: none;
+    margin: -1em 0 0 0;
+    visibility: hidden;
+}
+div#map_canvas{
+position: relative;
+left: -20px;
+top: -20px;
+width: 520px;
+height: 490px;
+}
+/******************************************************************************/
+div.stejnykontakt{
+/*    width: 232px;*/
+/*    border:1px solid black;*/
+/*    height: 232px;*/
+}
+/******************************************************************************/
+/* kariera */
+@media (max-width: 900px) {
+	body.node-type-kariera div#detail_operace{
+		width: 100%!important;
+	}
+}
+@media (max-width: 999px) {
+	body.page-node-41 div#hlavni_info_operace {
+		width: 48% !important;
+		margin-left: 0px !important;
+	}
+}/* End of tablet view */
+@media (max-width: 768px) {
+	body.page-node-41 div#hlavni_info_operace {
+		width: 100% !important;
+		margin-left: 0px !important;
+	}
+	body.page-node-79 div#hlavni_info_operace {
+		width: 100%!important;
+	}
+
+}
+body.node-type-kariera{
+/*    background:#ccc url('../images/hodnelidi.jpg') no-repeat fixed center top;*/
+    background:#ccc url('images/bgimage.jpg') no-repeat fixed center top;
+/*    background-color: #cccccc;*/
+}
+
+body.node-type-kariera-menu{
+/*    background:#ccc url('../images/hodnelidi.jpg') no-repeat fixed center top;*/
+    background:#ccc url('images/bgimage.jpg') no-repeat fixed center top;
+/*    background-color: #cccccc;*/
+}
+
+table#personalisti{
+    margin-top: 25px;
+    margin-bottom: 170px;
+    background-color: transparent;
+    border: none;
+    border-radius: 8px;
+}
+table#personalisti tr.popisek{
+/*    background-color: rgba(255,255,255,0.8);*/
+    color: black;
+}
+
+table#personalisti img{
+    border-radius: 8px;
+}
+
+table#personalisti tr.jmeno{
+    font-weight: bold;
+}
+
+table#personalisti td{
+    background-color: transparent;
+    border: none;
+    padding-right: 20px;
+    vertical-align: top;
+    color: black;
+    padding-top:4px;
+}
+
+table#personalisti td div{
+    display: inline-block;
+    margin: 0px;
+}
+
+table#personalisti td p{
+    display: inline-block;
+    margin: 0px;
+}
+
+table#personalisti td a{
+    color: #dc275c;
+}
+
+body.node-type-kariera div#operace_bocniobr{
+    position: fixed;
+    right: 0px;
+/*    left: 0px;*/
+    top: 520px;
+    z-index: -1000;
+}
+body.node-type-kariera div#detail_operace{
+    width: 360px;
+/*    height: 350px;*/
+    border-radius: 8px;
+    background-color: rgba(255,255,255,.6);
+    float: right;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #202020;
+}
+
+body.node-type-kariera div#detail_operace a{
+    color: #dc275c;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+div.field-name-field-kontakt-hlavni-nadpis{
+    font-weight: bold;
+    font-size:25px;
+    text-shadow: 1px 1px 2px #583D31;
+    color: #dc275c;
+    margin-bottom: 8px;
+}
+
+div.field-name-field-kontakt-podnadpis{
+    margin-top: 3px;
+    font-size:15px;
+}
+
+div.field-name-body{
+    margin-top: 20px;
+}
+
+body.node-type-kariera div.view-header{
+    border-radius: 8px;
+    background-color: rgba(0,0,0,.6);
+    text-align: right;
+    padding-top: 7px;
+    padding-bottom: 8px;
+    padding-left: 5px;
+    padding-right: 10px;
+    color: white;
+    margin-top: -20px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 17px;
+}
+body.node-type-kariera div.view-header p{
+    margin: 0px;
+}
+
+body.node-type-kariera div.views-field-body{
+    font-size: 11px;
+}
+
+body.node-type-kariera div.views-field-title {
+    border-bottom: 1px solid black;
+    margin-bottom: 3px;
+}
+/* pozice */
+.jmeno{
+	font-weight: bold;
+}
+.permail{
+	color: #dc275c!important;
+}
+/* */
+body.page-node-79 .pozice2{
+	padding-top: 0px!important;
+	height:203px!important;
+}
+.pozice1{
+	float: left;
+	height: 190px;
+}
+.pozice2{
+	height: 190px;
+	bottom: 0;
+	width: 50%;
+	float: right;
+	padding-top: 81px;
+}
+.pozice3{
+	float: left;
+	height: 190px;
+}
+.pozice4{
+	height: 190px;
+	bottom: 0;
+	width: 50%;
+	float: right;
+	padding-top: 99px;
+}
+.karieraOperace{
+	width: 570px;
+}
+.pager-current{
+	color: black !important;
+}
+.pager-next > a:nth-child(1){
+	color: black !important;
+}
+.pager-previous > a:nth-child(1){
+	color: black !important;
+}
+@media (max-width: 768px) {
+	body.node-type-stelle div.field-name-field-predpokladame-nadpis{
+		width: 100% !important;
+	}
+	body.node-type-stelle div.field-name-field-pozadujeme-nadpis{
+		width: 100% !important;
+	}
+	body.node-type-stelle div.field-name-field-nabizime-nadpis{
+		width: 100% !important;
+	}
+	body.node-type-stelle div.field-name-field-kontaktni-info-nadpis{
+		width: 100% !important;
+	}
+	.karieraOperace{
+		width: 100%!important;
+	}
+	.pozice1{
+		float: none!important;
+		height: 190px!important;
+		text-align: center;
+	}
+	.pozice2{
+		height: 190px!important;
+		bottom: 0;
+		width: 100%!important;
+		float: none!important;
+		padding-top: 81px;
+		text-align: center;
+	}
+	.pozice3{
+		float: none!important;
+		text-align: center;
+		height: 100%!important;
+	}
+	.pozice4{
+		height: 190px!important;
+		bottom: 0;
+		width: 100%!important;
+		float: none!important;
+		padding-top: 99px;
+		text-align: center;
+	}
+}
+/******************************************************************************/
+/******************************************************************************/
+/* Stelle Node */
+body.node-type-stelle{
+    background:#ccc url('images/hodnelidi.jpg') no-repeat fixed center top;
+/*    background-color: #cccccc;*/
+}
+body.node-type-stelle div.field-name-field-nazev-pozice{
+    color: #dc275c;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+
+body.node-type-stelle section#main{
+    border-radius: 8px;
+    background-color: rgba(200,200,200,.6);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #202020;
+}
+
+body.node-type-stelle div.field-name-field-nastup div.field-label{
+    float: left;
+}
+
+body.node-type-stelle div.field-name-field-pozadujeme-nadpis{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    background-color: #dc275c;
+    border-radius: 8px;
+    width: 50%;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+body.node-type-stelle div.field-name-field-nabizime-nadpis{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    background-color: #dc275c;
+    border-radius: 8px;
+    width: 50%;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+body.node-type-stelle div.field-name-field-predpokladame-nadpis{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    background-color: #dc275c;
+    border-radius: 8px;
+    width: 50%;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+body.node-type-stelle div.field-name-field-kontaktni-info-nadpis{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    background-color: #dc275c;
+    border-radius: 8px;
+    width: 50%;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+body.node-type-stelle div.field-name-field-pozadujeme{
+    margin-left: 20px;
+}
+body.node-type-stelle div.field-name-field-pozadujeme div.field-item{
+    display: list-item;
+    list-style-type: square;
+}
+
+body.node-type-stelle div.field-name-field-predpokladame{
+    margin-left: 20px;
+}
+body.node-type-stelle div.field-name-field-predpokladame div.field-item{
+    display: list-item;
+    list-style-type: square;
+}
+
+body.node-type-stelle div.field-name-field-nabizime{
+    margin-left: 20px;
+}
+body.node-type-stelle div.field-name-field-nabizime div.field-item{
+    display: list-item;
+    list-style-type: square;
+}
+/* Naborova kampan */
+
+.group-left-panel{
+  width: 220px;
+  float: left;
+
+}
+@media (max-width: 768px) {
+	.tabs {
+		display: none;
+	}
+	.group-left-panel{
+		width: 100%!important;
+		float: left;
+	}
+.field-name-field-naborova-kampan-obrazek{
+	width: auto!important;
+	float: none!important;
+	padding-bottom: 0px!important;
+}
+body.node-type-news div.views-field-field-uvodni-obrazek{
+	float: none!important;
+	margin-right: 0px!important;
+	text-align: center;
+}
+	}
+
+.group-content-nabor{
+  width: 100%;
+
+}
+body.node-type-naborova-kampan {
+    background-image: none;
+    background-color: #cccccc;
+}
+
+.field-name-field-naborova-kampan-obrazek{
+  width: 340px;
+  padding-bottom: 150px;
+  float: left;
+}
+.field-name-field-naborova-kampan-obrazek img{
+  width: 300px;
+  height: auto;
+
+}
+.field-name-field-nabor-obrazek-link1, .field-name-field-nabor-obrazek-link-2, .field-name-field-nabor-obrazek-link-3{
+  float: left;
+  text-align: center;
+  padding-bottom: 30px
+}
+.field-name-field-nabor-nadpis-1{
+  color: #D31055;
+  font-size: 28px;
+  line-height: 1.3;
+  font-weight: bold;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.field-name-field-nabor-nadpis-2{
+  color: #D31055;
+  font-size: 24px;
+  line-height: 1.3;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+.field-name-field-nabor-text-1 {
+  font-style: italic;
+  font-size: 16px;
+}
+/* Webform */
+body.node-type-webform span.submitted{
+    display:none;
+}
+body.node-type-webform div.webform-component--nadpis{
+	border-bottom: 1px solid black;
+  color: #dc275c;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: -10px;
+}
+body.node-type-webform div.webform-component--ochrana-udaju{
+	font-size:1em;
+	font-weight:bold;
+}
+body.node-type-webform div.webform-component-textfield{
+	width:50%;
+	font-size:1.1em;
+}
+body.node-type-webform div.webform-component-textarea{
+	width:50%;
+	font-size:1.1em;
+}
+body.node-type-webform div.webform-component-file{
+	width:50%;
+	font-size:1.1em;
+}
+body.node-type-webform div.webform-component-checkboxes{
+	width:50%;
+	font-size:1.1em;
+}
+body.node-type-webform div.webform-component-radios{
+	width:50%;
+	font-size:1.1em;
+}
+body.node-type-webform div.webform-component-textarea textarea{
+	font-size:1em;
+	width:100%;
+}
+body.node-type-webform div.webform-component-textarea label{
+  background-color: #dc275c;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 5px;
+		width: 100%;
+}
+body.node-type-webform div.webform-component-checkboxes > label{
+	width: 100%;
+}
+body.node-type-webform div.webform-component-radios>label {
+    background-color: #dc275c;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 5px;
+		width: 100%;
+}
+body.node-type-webform div.webform-component-file label{
+  background-color: #dc275c;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+body.node-type-webform div.webform-component-file label {
+    background-color: #dc275c;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 5px;
+		width: 100%;
+}
+.form-submit {
+    -moz-transition: all 0.2s ease-in-out 0s;
+    border-radius: 5px;
+    cursor: pointer;
+    background: none repeat scroll 0 0 #575757;
+    border: 1px solid #000000;
+    color: #fff;
+    padding: 4px 6px;
+    text-shadow: 1px 1px 1px #300033;
+    margin-right: 4px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+body.node-type-webform div.webform-component-textfield label{
+  background-color: #dc275c!important;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+body.node-type-webform div.webform-component-textfield input{
+	width:98%;
+}
+body.node-type-webform div.webform-component-checkboxes>label{
+  background-color: #dc275c;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+body.node-type-webform div.webform-component-checkboxes div.form-item{
+	width:100%;
+	color:black;
+}
+body.node-type-webform div.webform-component-radios>label{
+  background-color: #dc275c;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+body.node-type-webform div.webform-component-radios div.form-item{
+	width:100%;
+	color:black;
+}
+/* Kariera menu */
+#block-system-main > div > div > div.field.field-name-field-bordo-linka.field-type-image.field-label-hidden > div > div > img {
+    width: 396px;
+    height: 35px;
+    position: relative;
+    margin-right: 2px;
+    float: right;
+    margin-bottom: 2px;
+    border-radius: 6px;
+}
+#block-system-main > div > div > div.field-collection-container.clearfix {
+    float: left;
+    display: table;
+    width: 398px;
+    display: inline-block;
+    border-radius: 8px;
+    background-color: rgba(100,100,100,.6);
+    float: right;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    z-index: -1000;
+    display: inline-block;
+    /* height: 700px; */
+}
+#block-system-main > div > div > div.field.field-name-field-teas-bild.field-type-image.field-label-hidden > div > div > img {
+    float: left;
+    width: 500px;
+    height: 507px;
+    margin-right: 85px;
+}
+.field-collection-view .entity-field-collection-item {
+    width: 100%;
+}
+.field-collection-view .entity-field-collection-item {
+    float: left;
+}
+#block-system-main > div > div > div.field-collection-container.clearfix > div > div > div:nth-child(1) > div > div > div > div.field.field-name-field-field-obr2.field-type-linkimagefield.field-label-hidden > div > div > a > img {
+    float: left;
+    margin-right: 14px;
+    border-radius: 8px;
+}
+#block-system-main > div > div > div.field-collection-container.clearfix > div.field.field-name-field-sedy-ram.field-type-field-collection.field-label-hidden > div > div:nth-child(1) > div > div > div > div.field.field-name-field-odkaz.field-type-link-field.field-label-hidden > div > div > a {
+    color: rgb(255,255,255);
+    font-size: 20px;
+}
+#block-system-main > div > div > div.field-collection-container.clearfix > div.field.field-name-field-sedy-ram.field-type-field-collection.field-label-hidden > div > div.field-item.odd > div > div > div > div.field.field-name-field-field-obr2.field-type-linkimagefield.field-label-hidden > div > div > a > img {
+    float: left;
+    margin-right: 14px;
+    border-radius: 8px;
+}
+#block-system-main > div > div > div.field-collection-container.clearfix > div.field.field-name-field-sedy-ram.field-type-field-collection.field-label-hidden > div > div.field-item.odd > div > div > div > div.field.field-name-field-odkaz.field-type-link-field.field-label-hidden > div > div > a {
+    color: rgb(255,255,255);
+    font-size: 20px;
+}
+#block-system-main > div > div > div.field-collection-container.clearfix > div.field.field-name-field-sedy-ram.field-type-field-collection.field-label-hidden > div > div:nth-child(3) > div > div > div > div.field.field-name-field-odkaz.field-type-link-field.field-label-hidden > div > div > a {
+    color: rgb(255,255,255);
+    font-size: 20px;
+}
+#block-system-main > div > div > div.field-collection-container.clearfix > div.field.field-name-field-sedy-ram.field-type-field-collection.field-label-hidden > div > div:nth-child(3) > div > div > div > div.field.field-name-field-field-obr2.field-type-linkimagefield.field-label-hidden > div > div > a > img {
+    float: left;
+    margin-right: 14px;
+    border-radius: 8px;
+}
+#block-system-main > div > div > div.field-collection-container.clearfix > div.field.field-name-field-sedy-ram.field-type-field-collection.field-label-hidden > div > div.field-item.odd > div > div > div > div.field.field-name-field-field-obr2.field-type-linkimagefield.field-label-hidden > div > div > a > img {
+    float: left;
+    margin-right: 14px;
+    border-radius: 8px;
+}
+#block-system-main > div > div > div.field-collection-container.clearfix > div.field.field-name-field-sedy-ram.field-type-field-collection.field-label-hidden > div > div.field-item.odd > div > div > div > div.field.field-name-field-odkaz.field-type-link-field.field-label-hidden > div > div > a {
+    color: rgb(255,255,255);
+    font-size: 20px;
+}
+#block-system-main > div > div > div.field-collection-container.clearfix > div > div > div:nth-child(5) > div > div > div > div.field.field-name-field-odkaz.field-type-link-field.field-label-hidden > div > div > a {
+    color: rgb(255,255,255);
+    font-size: 20px;
+}
+#block-system-main > div > div > div.field-collection-container.clearfix > div > div > div:nth-child(5) > div > div > div > div.field.field-name-field-field-obr2.field-type-linkimagefield.field-label-hidden > div > div > a > img {
+    float: left;
+    margin-right: 14px;
+    border-radius: 8px;
+}
+#block-system-main > div > div > div.field.field-name-field-odkazy-pod.field-type-linkimagefield.field-label-hidden > div > div > a > img {
+    float: left;
+    margin-right: 4px;
+    width: 72px;
+    height: 45px;
+    padding-left: 23px;
+    position: relative;
+}
+#block-system-main > div > div > div.field.field-name-field-uchazeci-1.field-type-linkimagefield.field-label-hidden > div > div > a > img {
+    float: left;
+    margin-right: 22px;
+    width: 44px;
+    height: 45px;
+    margin-left: 39px;
+}
+#block-system-main > div > div > div.field.field-name-field-usa.field-type-linkimagefield.field-label-hidden > div > div > a > img {
+    float: left;
+    margin-right: 22px;
+    height: 45px;
+    padding-left: 59px;
+}
+#block-system-main > div > div > div.field.field-name-field-zsams.field-type-linkimagefield.field-label-hidden > div > div > a > img {
+	float: left;
+	margin-right: 26px;
+	width: 107px;
+	height: 45px;
+	padding-left: 64px;
+}
+#block-system-main > div > div > div.field.field-name-field-vpp.field-type-linkimagefield.field-label-hidden > div > div > a > img {
+	width: 56px;
+height: 45px;
+padding-left: 14px;
+}
+#block-system-main > div > div > div.field.field-name-field-odkaz5.field-type-link-field.field-label-hidden > div > div:nth-child(1) > a {
+    padding-left: 10px;
+    padding-right: 10px;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    background-color: #404040;
+    display: inline;
+    float: left;
+    color: white;
+}
+#block-system-main > div > div > div.field.field-name-field-odkaz5.field-type-link-field.field-label-hidden > div > div:nth-child(2) > a {
+    padding-left: 10px;
+    padding-right: 10px;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    background-color: #404040;
+    display: inline;
+    float: left;
+    color: white;
+}
+#block-system-main > div > div > div.field.field-name-field-odkaz5.field-type-link-field.field-label-hidden > div > div:nth-child(3) > a {
+    padding-left: 10px;
+    padding-right: 10px;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    background-color: #404040;
+    display: inline;
+    float: left;
+    color: white;
+}
+#block-system-main > div > div > div.field.field-name-field-odkaz5.field-type-link-field.field-label-hidden > div > div:nth-child(4) > a {
+    padding-left: 10px;
+    padding-right: 10px;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    background-color: #404040;
+    display: inline;
+    float: left;
+    color: white;
+}
+#block-system-main > div > div > div.field.field-name-field-odkaz5.field-type-link-field.field-label-hidden > div > div:nth-child(5) > a {
+    padding-left: 10px;
+    padding-right: 10px;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    background-color: #404040;
+    display: inline;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: white;
+}
+/* Kariera puzzle rozcestnik  */
+#ikon{
+		display: inline-flex;
+    display: -moz-inline-box;
+		text-align: center;
+		margin-top: 57px;
+		margin-bottom:30px;
+}
+
+div.horizontalnecentrovanysipka{
+    position: relative;
+    top: -44px;
+}
+
+@media (max-width: 900px) {
+	#ikon {
+	    /* height: 150px; */
+	    text-align: center;
+	    margin-top: 0px;
+	    /* border: 1px solid black; */
+			display: block!important;
+	}
+	.horizontalnecentrovanysipka{
+		display: none;
+	}
+	#block-system-main > div > div > div.field-collection-container.clearfix > div.field.field-name-field-sedy-ram.field-type-field-collection.field-label-hidden > div > div > div > div > div > div.field.field-name-field-detail.field-type-text-long.field-label-hidden > div > div > ul{
+		padding-left: 5px!important;
+	}
+}
+/* cervena  */
+#ikon > div:nth-child(1) > div:nth-child(1) > a > div > div > div > img {
+    position: relative;
+    width: 60px;
+    height: 61px;
+}
+/* modra */
+#ikon > div:nth-child(3) > div:nth-child(1) > a > div > div.field-items > div > img {
+    position: relative;
+    width: 60px;
+    height: 61px;
+}
+/* zelena  */
+#ikon > div:nth-child(5) > div:nth-child(1) > a > div > div > div > img {
+    position: relative;
+    width: 60px;
+    height: 61px;
+}
+/* zluta */
+#ikon > div:nth-child(7) > div:nth-child(1) > a > div > div > div > img {
+    position: relative;
+    left: -2px;
+    width: 60px;
+    height: 61px;
+}
+/* modro zelena  */
+#ikon > div:nth-child(9) > div:nth-child(1) > a > div > div > div > img {
+    position: relative;
+    width: 60px;
+    height: 61px;
+    top: 0px;
+}
+/* Sipka zacatek */
+#ikon > div:nth-child(2) > div > div > div > img {
+	padding-left: 47px;
+	padding-right: 48px;
+	display: block;
+	width: 110px;
+	height: 19px;
+	margin-top: 60px;
+	margin-right: -5px;
+	margin-left: -5px;
+}
+#ikon > div:nth-child(4) > div > div > div > img {
+	padding-left: 47px;
+	padding-right: 48px;
+	display: block;
+	width: 110px;
+	height: 19px;
+	margin-top: 60px;
+	margin-right: -6px;
+	margin-left: -6px;
+}
+#ikon > div:nth-child(6) > div > div > div > img {
+	padding-left: 47px;
+	padding-right: 48px;
+	display: block;
+	width: 110px;
+	height: 19px;
+	margin-top: 60px;
+	margin-right: -6px;
+	margin-left: -6px;
+}
+#ikon > div:nth-child(8) > div > div > div > img {
+	padding-left: 47px;
+	padding-right: 48px;
+	display: block;
+	width: 110px;
+	height: 19px;
+	margin-top: 60px;
+	margin-right: -6px;
+	margin-left: -6px;
+}
+/* Sipka konec */
+div.rozcestnik_operace_odkaz {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 5px;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    background-color: #404040;
+    display: inline;
+}
+/* Zamestnanci  */
+/* main */
+@media (max-width: 900px) {
+	/* Sedy ram */
+	#block-system-main > div > div > div.field-collection-container.clearfix{
+			width: 100%!important;
+	}
+	/* Aby text */
+	#block-system-main > div > div > div.field.field-name-field-bordo-linka.field-type-image.field-label-hidden > div > div > img{
+		height: auto!important;
+		width: 100%!important;
+	}
+	#block-system-main > div > div > div.field.field-name-field-teas-bild.field-type-image.field-label-hidden > div > div > img{
+		height: auto!important;
+		width: 100%!important;
+	}
+	.field-name-field-odkaz5{
+		display: none;
+	}
+	/* cervena */
+	#block-system-main > div > div > div.field.field-name-field-odkazy-pod.field-type-linkimagefield.field-label-hidden > div > div > a > img{
+		float: left!important;
+		margin-right: 4px!important;
+		width: 61px!important;
+		height: 65px!important;
+		padding-left: 0px!important;
+		position: relative!important;
+	}
+	/* Modra */
+	#block-system-main > div > div > div.field.field-name-field-uchazeci-1.field-type-linkimagefield.field-label-hidden > div > div > a > img{
+		float: left!important;
+		margin-right: 5px!important;
+		width: 61px!important;
+		height: 65px!important;
+		padding-left: 0px!important;
+		margin-left: 0px!important;
+	}
+	/* zelena */
+	#block-system-main > div > div > div.field.field-name-field-usa.field-type-linkimagefield.field-label-hidden > div > div > a > img{
+		float: left!important;
+		height: 65px!important;
+		width: 61px!important;
+		margin-right: 5px!important;
+		padding-left: 0px!important;
+	}
+	/* zluta */
+	#block-system-main > div > div > div.field.field-name-field-zsams.field-type-linkimagefield.field-label-hidden > div > div > a > img{
+		float: left!important;
+		width: 61px!important;
+		height: 65px!important;
+		margin-right: 5px!important;
+		padding-left: 0px!important;
+	}
+	/* modro zelena*/
+	#block-system-main > div > div > div.field.field-name-field-vpp.field-type-linkimagefield.field-label-hidden > div > div > a > img{
+		width: 61px!important;
+		height: 65px!important;
+		padding-left: 0px!important;
+	}
+}
+div.field-name-field-odkazy-pod {
+    clear: both;
+    padding-top: 20px;
+}
+/* Zname se */
+#block-system-main > div > div > div.field-collection-container.clearfix > div.field.field-name-field-sedy-ram.field-type-field-collection.field-label-hidden > div > div > div > div > div > div.field.field-name-field-obr.field-type-image.field-label-hidden > div > div > a > img{
+	float: left;
+  margin-right: 14px;
+  border-radius: 8px;
+}
+#block-system-main > div > div > div.field-collection-container.clearfix > div.field.field-name-field-sedy-ram.field-type-field-collection.field-label-hidden > div > div:nth-child(1) > div > div > div > div.field.field-name-field-odkaz.field-type-link-field.field-label-hidden > div > div > a{
+	color: rgb(255,255,255);
+	font-size: 20px;
+}
+#block-system-main > div > div > div.field-collection-container.clearfix > div.field.field-name-field-sedy-ram.field-type-field-collection.field-label-hidden > div > div > div > div > div > div.field.field-name-field-nadpis-1.field-type-text.field-label-hidden > div > div > p{
+	color: white;
+	font-size: 15px;
+}
+#block-system-main > div > div > div.field-collection-container.clearfix > div.field.field-name-field-sedy-ram.field-type-field-collection.field-label-hidden > div > div:nth-child(1) > div > div > div > div.field.field-name-field-detail.field-type-text-long.field-label-hidden{
+	color: white;
+}
+/* Pel mel */
+.narozeninyNew {
+    display: grid;
+}
+/* Co nabizime */
+#block-system-main > div > div > div.field-collection-container.clearfix > div.field.field-name-field-sedy-ram.field-type-field-collection.field-label-hidden > div > div > div > div > div > div.field.field-name-field-detail.field-type-text-long.field-label-hidden > div > div > ul {
+   padding-left: 5px;
+    color: white;
+}
+.nabizime {
+    font-size: 16px;
+    line-height: 24px;
+    display: block;
+}
+/* osobni pohovor */
+.nadpis {
+    font-size: 26px;
+    text-align: center;
+}
+/* spolu  */
+#block-system-main > div > div > div.field-collection-container.clearfix > div.field.field-name-field-sedy-ram.field-type-field-collection.field-label-hidden > div > div.field-item.odd > div > div > div > div.field.field-name-field-detail.field-type-text-long.field-label-hidden > div > div > p:nth-child(2) > a {
+    color: rgb(255,255,0);
+}
+/* vpp */
+#block-system-main > div > div > div.field-collection-container.clearfix > div.field.field-name-field-sedy-ram.field-type-field-collection.field-label-hidden > div > div > div > div > div > div > div > div > div > div.view-content > div.views-row.views-row-1.views-row-odd.views-row-first > div.views-field.views-field-title > span > a{
+    color: white;
+    font-size: 20px;
+}
+#block-system-main > div > div > div.field-collection-container.clearfix > div.field.field-name-field-sedy-ram.field-type-field-collection.field-label-hidden > div > div > div > div > div > div > div > div > div > div.view-content > div.views-row.views-row-1.views-row-odd.views-row-first > div.views-field.views-field-field-obrazek-operaccce > div > img {
+    width: 100px;
+    height: 100px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    float: left;
+    padding-top: 6px;
+    margin-right: 14px;
+    border-radius: 17px;
+}
+div.views-row:nth-child(1) > div:nth-child(3) > div:nth-child(1) > p:nth-child(1){
+	text-align: left!important;
+}
+#block-system-main > div > div > div.field-collection-container.clearfix > div.field.field-name-field-sedy-ram.field-type-field-collection.field-label-hidden > div > div > div > div > div > div > div > div > div > div.view-content > div.views-row.views-row-2.views-row-even > div.views-field.views-field-field-obrazek-operaccce > div > img{
+	width: 100px;
+height: 100px;
+padding-left: 10px;
+padding-bottom: 5px;
+float: left;
+padding-top: 6px;
+margin-right: 14px;
+border-radius: 17px;
+}
+#block-system-main > div > div > div.field-collection-container.clearfix > div.field.field-name-field-sedy-ram.field-type-field-collection.field-label-hidden > div > div > div > div > div > div > div > div > div > div.view-content > div.views-row.views-row-2.views-row-even > div.views-field.views-field-title > span > a {
+    color: white;
+    font-size: 20px;
+}
+#block-system-main > div > div > div.field-collection-container.clearfix > div.field.field-name-field-sedy-ram.field-type-field-collection.field-label-hidden > div > div > div > div > div > div > div > div > div > div.view-content > div.views-row.views-row-3.views-row-odd > div.views-field.views-field-field-obrazek-operaccce > div > img{
+	width: 100px;
+height: 100px;
+padding-left: 10px;
+padding-bottom: 5px;
+float: left;
+padding-top: 6px;
+margin-right: 14px;
+border-radius: 17px;
+}
+
+#block-system-main > div > div > div.field-collection-container.clearfix > div.field.field-name-field-sedy-ram.field-type-field-collection.field-label-hidden > div > div > div > div > div > div > div > div > div > div.view-content > div.views-row.views-row-3.views-row-odd > div.views-field.views-field-title > span > a {
+    color: white;
+    font-size: 20px;
+}
+#block-system-main > div > div > div.field-collection-container.clearfix > div.field.field-name-field-sedy-ram.field-type-field-collection.field-label-hidden > div > div > div > div > div > div > div > div > div > div.view-content > div.views-row.views-row-4.views-row-even.views-row-last > div.views-field.views-field-field-obrazek-operaccce > div > img {
+    width: 100px;
+    height: 100px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    float: left;
+    padding-top: 6px;
+    margin-right: 14px;
+    border-radius: 17px;
+}
+#block-system-main > div > div > div.field-collection-container.clearfix > div.field.field-name-field-sedy-ram.field-type-field-collection.field-label-hidden > div > div > div > div > div > div > div > div > div > div.view-content > div.views-row.views-row-4.views-row-even.views-row-last > div.views-field.views-field-title > span > a {
+    color: white;
+    font-size: 20px;
+}
+.item-list .pager li {
+    background: #cfcfcf;
+    border-radius: 3px;
+    margin-right: 4px;
+    text-shadow: 1px 1px #fff;
+}
+.views-row {
+    clear: both;
+    border-bottom: 1px dotted #D3D7D9;
+    margin-top: 5px;
+		color: black!important;
+}
+#block-system-main > div > div > div.field-collection-container.clearfix > div.field.field-name-field-sedy-ram.field-type-field-collection.field-label-hidden > div > div > div > div > div > div > div > div > div > div.view-content > div.views-row.views-row-1.views-row-odd.views-row-first > div.views-field.views-field-body > div > p {
+    font-size: 13px;
+    margin-bottom: 65px;
+    color: white;
+    text-align: start;
+}
+#block-system-main > div > div > div.field-collection-container.clearfix > div.field.field-name-field-sedy-ram.field-type-field-collection.field-label-hidden > div > div > div > div > div > div > div > div > div > div.view-content > div.views-row.views-row-2.views-row-even > div.views-field.views-field-body > div > p {
+    margin-bottom: 52px;
+    color: white;
+    text-align: start;
+}
+#block-system-main > div > div > div.field-collection-container.clearfix > div.field.field-name-field-sedy-ram.field-type-field-collection.field-label-hidden > div > div > div > div > div > div > div > div > div > div.view-content > div.views-row.views-row-3.views-row-odd > div.views-field.views-field-body > div > p {
+    margin-bottom: 47px;
+    color: white;
+    text-align: start;
+}
+#block-system-main > div > div > div.field-collection-container.clearfix > div.field.field-name-field-sedy-ram.field-type-field-collection.field-label-hidden > div > div > div > div > div > div > div > div > div > div.view-content > div.views-row.views-row-4.views-row-even.views-row-last > div.views-field.views-field-body > div > p {
+    margin-bottom: 47px;
+    color: white;
+    text-align: start;
+}
+
+/* Osobni dotaznik  */
+body.node-type-webform{
+	background-image: none;
+background-color: #cccccc;
+}
+body.node-type-webform div.webform-component:nth-child(3) label {
+    background-color: #dc275c;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 5px;
+		width: 100%;
+}
+body.node-type-webform div.webform-component-textfield input {
+	width: 100%;
+}
+/* Carousel  */
+.carousel-indicators li{
+	width: 13px!important;
+	height: 13px!important;
+	border: 1px solid #000000b3!important;
+	margin: 0px !important;
+}
+.carousel-indicators .active{
+	background-color: #da285d!important;
+}
+.carousel-indicators{
+	bottom: -9px!important;
+}
+@media screen and (max-width: 768px) {
+	.carousel-indicators{
+		display: none;
+	}
+}
+.field-name-field-pers1-email > div:nth-child(1) > div:nth-child(1) > p:nth-child(1) > a:nth-child(1){
+	    color: #dc275c;
+}
+.field-name-field-pers2-email > div:nth-child(1) > div:nth-child(1) > p:nth-child(1) > a:nth-child(1){
+color: #dc275c;
+}
+.field-name-field-pers3-email > div:nth-child(1) > div:nth-child(1) > p:nth-child(1) > a:nth-child(1){
+color: #dc275c;
+}
+.field-name-field-pers4-email > div:nth-child(1) > div:nth-child(1) > p:nth-child(1) > a:nth-child(1){
+color: #dc275c;
+}
+
+@media screen and (max-width: 768px) {
+	body.node-type-webform div.webform-component-textfield{
+		width: 100%!important;
+	}
+	body.node-type-webform div.webform-component-textarea{
+		width: 100%!important;
+	}
+	body.node-type-webform div.webform-component-checkboxes{
+		width: 100%!important;
+	}
+	body.node-type-webform div.webform-component-radios{
+		width: 100%!important;
+	}
+	body.node-type-webform div.webform-component-checkboxes{
+		width: 100%!important;
+	}
+	body.node-type-webform div.webform-component-textarea{
+		width: 100%!important;
+	}
+	body.node-type-webform div.webform-component-file{
+		width: 100%!important;
+	}
+}
+.field-name-field-detail{
+	display: grid;
+}
