@@ -8,6 +8,7 @@ li{
 a:hover {
   color: black!important; text-decoration: none!important; /* no underline */
 }
+/* maximalni sirka stranky */
 .maxwidth{
   max-width: 1262px; margin-left: auto; margin-right: auto;
 }
