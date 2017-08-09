@@ -29,6 +29,7 @@ a:hover {
 .icon-bar {
     background-color: rgb(216, 21, 97) !important;
 }
+
 .abyLink{
   font-size: 22px;
   color: black!important;
@@ -394,6 +395,7 @@ font-size: 24px;
   .field-name-field-volna-mista-menu{
     top: 4px;
     position: fixed;
+    left: 0 !important;
   }
 
   .field-name-field-puntik3-popis {

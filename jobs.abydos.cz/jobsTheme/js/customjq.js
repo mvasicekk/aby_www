@@ -12,7 +12,6 @@ if ( foo_width > 736 ) {
               "position": "fixed",
                   "top": "2px",
                   "z-index": "450",
-                  "right": "90px",
                   "margin-top":"0px"
           });
       } else if (top < baseTop) {
