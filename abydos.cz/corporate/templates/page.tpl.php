@@ -121,7 +121,6 @@
       <div class="slides_container">
 
 	<?php if($node->language=="cs"){ ?>
-    <a href="<?php print base_path(). 'cs/node/277' ; ?>"><img src="<?php print base_path() . drupal_get_path('theme', 'corporate') . '/images/Den-otevrenych-dveri_Banner_web.jpg'; ?>"/></a>
 	<a href="<?php print base_path(). 'cs/' ; ?>"><img src="<?php print base_path() . drupal_get_path('theme', 'corporate') . '/images/banner-web_naborovy-den.jpg'; ?>"/></a>
 	<a href="<?php print base_path(). 'cs/na_co_cekate' ; ?>"><img src="<?php print base_path() . drupal_get_path('theme', 'corporate') . '/images/banner-web_900x300_cekate.png'; ?>"/></a>
         <a href="<?php print base_path(). 'cs/tata' ; ?>"><img src="<?php print base_path() . drupal_get_path('theme', 'corporate') . '/images/banner-900x300_tata.jpg'; ?>"/></a>
